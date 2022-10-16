@@ -1,5 +1,5 @@
 <template>
-  <div class="bigtitle hline_top fade-in">
+  <div class="bigtitle hline_top fade-in" id="zapisnik">
     Zoznam zapisnikov
   </div>
   <div class="jebo">

@@ -11,8 +11,8 @@
   <div class="tab" @click="goto(4)">
     Sprinty
   </div>
-  <div class="tab" @click="goto(3)">
-    Zapisniky
+  <div class="tab hmm" @click="goto(3)">
+    <a href="#zapisnik">Zapisnik</a>
   </div>
 </template>
 
