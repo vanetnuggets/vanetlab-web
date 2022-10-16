@@ -20,13 +20,6 @@ import Background from "./components/Background.vue"
 
 import {} from 'vuex'
 
-const isElemVisible = (el) => {
-  var rect = el.getBoundingClientRect()
-  var elemTop = rect.top + 100 // 200 = buffer
-  var elemBottom = rect.bottom
-  return elemTop < window.innerHeight && elemBottom >= 0
-}
-
 export default {
   name: "App",
   components: {
@@ -43,11 +36,16 @@ export default {
     }
   },
   mounted() {
-    document.addEventListener('scroll', this.$store.dispatch.handleScroll)
+    document.addEventListener('scroll', this.test);
     this.$store.dispatch("handleScroll")
   },
   unmounted() {
     document.removeEventListener('scroll');
+  },
+  methods: {
+    test() {
+      this.$store.dispatch('handleScroll');
+    }
   }
 }
 </script>
