@@ -1,0 +1,21 @@
+{
+  "name": "tp-web",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "sass": "^1.55.0",
+    "vue": "^3.2.38",
+    "vue-animate-onscroll": "^1.0.8",
+    "vue-material-design-icons": "^5.1.2",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.9"
+  }
+}

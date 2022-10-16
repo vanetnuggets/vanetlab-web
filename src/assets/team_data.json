@@ -1,0 +1,45 @@
+[
+  {
+    "id": 0,
+    "name": "Peter Truchly",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros.",
+    "picture": "peter.jpg",
+    "role": "project owner"
+  },{
+    "id": 1,
+    "name": "Ondrej Martinka",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo urna molestie at elementum eu facilisis. Nisl rhoncus mattis rhoncus urna neque viverra justo.",
+    "picture": "ondro.webp",
+    "role": "frontend main"
+  },{
+    "id": 2,
+    "name": "Andrej Dubovsky",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames ac. Habitasse platea dictumst quisque sagittis purus sit.",
+    "picture": "dubak.webp",
+    "role": "celebrita na bicykli"
+  },{
+    "id": 3,
+    "name": "Samuel Kaceriak",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium aenean pharetra magna ac placerat. In ornare quam viverra orci sagittis eu.",
+    "picture": "samko.webp",
+    "role": "autobusovy senzor"
+  },{
+    "id": 4,
+    "name": "Richard Andrasik",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt id aliquet risus feugiat in. Ante in nibh mauris cursus mattis molestie a iaculis.",
+    "picture": "risko.webp",
+    "role": "bluetooth saman"
+  },{
+    "id": 5,
+    "name": "Vojtech Fudaly",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Lacus sed viverra tellus in hac habitasse.",
+    "picture": "vojto.webp",
+    "role": "kvantovy specialista"
+  },{
+    "id": 6,
+    "name": "Roman Grom",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper viverra nam libero justo laoreet. Eget gravida cum sociis natoque penatibus et magnis.",
+    "picture": "roman.webp",
+    "role": "zavisly na automatoch"
+  }
+]

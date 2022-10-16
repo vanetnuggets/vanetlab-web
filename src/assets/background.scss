@@ -1,0 +1,154 @@
+.car {
+  position: absolute;
+  background-color: none;
+  height: 100px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.car-body:hover {
+  background-color: #4B95B0;
+  transition: 0.1s;
+}
+
+.car-body {
+  position: absolute;
+  background-color: #3B85A0;
+  height: 100px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.car-window {
+  position: absolute;
+  background-color: #C2F9FF;
+  width: 50px;
+  height: 25px;
+  
+  left: 5px;
+  top: 40px;
+  border-radius: 3px;
+}
+
+.pneumatika {
+  position: absolute;
+  background-color: #3B3B3B;
+  height: 20px;
+  width: 10px;
+  border-radius: 10px;
+  
+  &.tl {
+    top: 10px;
+    left: -5px;
+  }
+  
+  &.tr {
+    top: 10px;
+    right: -5px;
+  }
+  
+  &.bl {
+    bottom: 10px;
+    left: -5px;
+  }
+  
+  &.br {
+    bottom: 10px;
+    right: -5px;
+  }
+}
+
+
+.vanet_wave {
+  position: absolute;
+  
+  animation: movedown 10s infinite linear;
+
+  &.up {
+    animation: moveup 10s infinite linear;
+  }
+
+  &.frst {
+    animation-delay:-5s;
+  }
+
+  &.scnd {
+    animation-delay:0s;
+  }
+
+  &.thrd {
+     animation-delay:-5s;
+  }
+
+  &.frth {
+    animation-delay:0s;
+  }
+}
+
+.vanet_circle:active {
+  background-color: purple;
+  transition: 0.1s;
+}
+
+.vanet_circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: deepskyblue;
+  opacity: 0;
+  width: 100px;
+  height: 100px;
+   
+  // ranjit poradil https://www.youtube.com/watch?v=reBPv-fCn-I&t=5s
+  animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+  &.frst {
+    animation-delay:-3s;
+  }
+
+  &.scnd {
+    animation-delay:-2s;
+  }
+
+  &.thrd {
+     animation-delay:-1s;
+  }
+
+  &.frth {
+    animation-delay:0s;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(.5, .5);
+    opacity: .5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
+
+@keyframes movedown {
+  0% {
+    left: 3%;
+    top: -10%;
+
+  }
+  100% {
+    left: 3%;
+    top: 110%;
+  }
+}
+
+@keyframes moveup {
+  0% {
+    right: 3%;
+    top: 110%;
+    transform:rotate(180deg);
+  }
+  100% {
+    right: 3%;
+    top: -10%;
+    transform:rotate(180deg);
+  }
+}
