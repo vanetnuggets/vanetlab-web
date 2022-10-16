@@ -1,5 +1,5 @@
 <template>
-  <div :class="my_class">
+  <div :class="my_class" @click="showMe()">
     <div class="vanet_circle frst" ></div>
     <div class="vanet_circle scnd" ></div>
     <div class="vanet_circle thrd" ></div>
@@ -19,7 +19,16 @@
 export default {
   name: "car",
   props: {
-    my_class: String
+    my_class: String,
+    id: Number
+  },
+  methods: {
+    showMe() {
+      this.$store.commit('exit_page');
+      setTimeout(() => {
+        this.$store.commit('show_page', this.id);
+      }, 400)
+    }
   }
 }
 </script>

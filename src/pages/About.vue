@@ -20,5 +20,12 @@
 <script>
 export default {
   name: "About",
+  mounted() {
+    let fel = Array.from(document.getElementsByClassName('fade-in'))
+    for (let e of fel) {
+      this.$store.commit('add_fadein_el', e);
+    }
+    this.$store.dispatch("handleScroll");
+  }
 }
 </script>

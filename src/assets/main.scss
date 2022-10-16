@@ -106,6 +106,39 @@ header {
   min-height: 100vh;
 }
 
+.myframe {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  max-height: calc(100vh * 0.7);
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.framehdr {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: navy;
+  height: 22px;
+  top: 0%;
+  opacity: 1;
+  position: relative;
+  outline: 2px solid white;
+}
+
+.framebody {
+  overflow: scroll;
+  outline: 2px solid white;
+  padding: 10px;
+}
+
 .about {
   .title {
     font-weight: bold;
@@ -181,4 +214,20 @@ header {
   .col_left {
     flex: 50%;
   }
+}
+
+.exit_circle {
+  background-color: red;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  margin: 2px;
+  color: red;
+  cursor: pointer;
+}
+
+.exit_circle:hover {
+  background-color: #ff5050;
+  color: #ff5050;
+  transition: 0.3s;
 }

@@ -38,6 +38,11 @@ export default {
         this.team.push(elem);
       }
     }
+    let fel = Array.from(document.getElementsByClassName('fade-in'))
+    for (let e of fel) {
+      this.$store.commit('add_fadein_el', e);
+    }
+    this.$store.dispatch("handleScroll");
     this.team.sort((a, b) => {return a.name - b.name})
   }
 }

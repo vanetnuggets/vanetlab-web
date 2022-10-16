@@ -43,25 +43,11 @@ export default {
     }
   },
   mounted() {
-    document.addEventListener('scroll', this.handleScroll)
-    this.handleScroll()
+    document.addEventListener('scroll', this.$store.dispatch.handleScroll)
+    this.$store.dispatch("handleScroll")
   },
   unmounted() {
-    document.removeEventListener('scroll')
-  },
-  methods: {
-    handleScroll(event) {
-      for (var i = 0; i < this.fadein.length; i++) {
-        var elem = this.fadein[i]
-        if (isElemVisible(elem)) {
-          elem.style.opacity = '1'
-          elem.style.transform = 'scale(1)'
-        } else {
-          elem.style.opacity = '0'
-          elem.style.transform = 'scale(0)'
-        }
-      }
-    }
+    document.removeEventListener('scroll');
   }
 }
 </script>
