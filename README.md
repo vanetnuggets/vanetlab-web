@@ -1,5 +1,10 @@
 # tp-web
 
+* `/` -> "staticka" verzia auticka si len jazdia na bokoch \
+* `/dev/` -> "itneraktivna" verzia, kde ti to otvara veci ked klikas na auticka, vyzera hnusno zatial treba tam vyladit css
+
+# vue readme:
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
