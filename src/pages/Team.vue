@@ -1,5 +1,5 @@
 <template>
-  <div class="team">
+  <div class="team" id="team">
     <div class="bigtitle hline_top fade-in">
       Nas tim
     </div>

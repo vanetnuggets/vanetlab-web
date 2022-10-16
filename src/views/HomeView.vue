@@ -29,7 +29,8 @@ export default {
 
 <style scoped>
   .glass {
-    background: rgba(86, 147, 195, 0.18);
+    background: white;
+    opacity: 0.85;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);

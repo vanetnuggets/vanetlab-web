@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <div class="fade-in" v-for="a in about" :key="a.id">
       <div class="title">
         {{ a.title }}

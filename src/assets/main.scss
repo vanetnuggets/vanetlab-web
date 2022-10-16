@@ -24,12 +24,18 @@ header {
     width: 100px;
     background-color: none;
     text-align: center;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: pink;
+      transition: 0.2s;
+      cursor: pointer;
+    }
   }
-  .tab:hover {
-    color: pink;
-    transition: 0.2s;
-    cursor: pointer;
-  }
+  
   .tab:active {
     font-weight: bold;
   }

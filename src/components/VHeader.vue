@@ -1,15 +1,15 @@
 <template>
   <div class="tab" @click="goto(1)">
-    O projekte
+    <a href="#about">O projekte</a>
   </div>
   <div class="tab" @click="goto(2)">
-    Nas tim
+    <a href="#team">Nas tim</a>
   </div>
   <div class="tab">
     VANETlab
   </div>
   <div class="tab" @click="goto(4)">
-    Sprinty
+    <a href="#sprinty">Sprinty</a>
   </div>
   <div class="tab hmm" @click="goto(3)">
     <a href="#zapisnik">Zapisnik</a>
