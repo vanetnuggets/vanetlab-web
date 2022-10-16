@@ -3,18 +3,23 @@ import About from "../pages/About.vue"
 import Team from "../pages/Team.vue"
 import Zapisnik from "../pages/Zapisnik.vue"
 
-
 export default {
   name: "Home",
   components: {
     About, Team, Zapisnik
+  },
+  mounted() {
+    let fel = Array.from(document.getElementsByClassName('fade-in'))
+    for (let e of fel) {
+      this.$store.commit('add_fadein_el', e);
+    }
   }
 }
 
 </script>
 
 <template>
-  <div>
+  <div class="main">
     <About />
     <Team />
     <Zapisnik />

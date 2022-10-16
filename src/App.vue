@@ -1,6 +1,6 @@
 <template>
   <Background />
-  <home-view  class="main" />
+  <router-view  />
   
   <header>
     <VHeader />
@@ -18,20 +18,7 @@ import VFooter from './components/VFooter.vue'
 import HomeView from './views/HomeView.vue'
 import Background from "./components/Background.vue"
 
-let fadein_elements = []
-
-const handleScroll = (evt) => {
-  for (var i = 0; i < fadein_elements.length; i++) {
-    var elem = fadein_elements[i]
-    if (isElemVisible(elem)) {
-      elem.style.opacity = '1'
-      elem.style.transform = 'scale(1)'
-    } else {
-      elem.style.opacity = '0'
-      elem.style.transform = 'scale(0)'
-    }
-  }
-}
+import {} from 'vuex'
 
 const isElemVisible = (el) => {
   var rect = el.getBoundingClientRect()
@@ -45,18 +32,36 @@ export default {
   components: {
     VHeader, HomeView, Background, VFooter
   },
+  computed: {
+    fadein() {
+      return this.$store.getters.fadein_els;
+    }
+  },
   date() {
     return {
       
     }
   },
   mounted() {
-    fadein_elements = Array.from(document.getElementsByClassName('fade-in'))
-    document.addEventListener('scroll', handleScroll)
-    handleScroll()
+    document.addEventListener('scroll', this.handleScroll)
+    this.handleScroll()
   },
   unmounted() {
     document.removeEventListener('scroll')
+  },
+  methods: {
+    handleScroll(event) {
+      for (var i = 0; i < this.fadein.length; i++) {
+        var elem = this.fadein[i]
+        if (isElemVisible(elem)) {
+          elem.style.opacity = '1'
+          elem.style.transform = 'scale(1)'
+        } else {
+          elem.style.opacity = '0'
+          elem.style.transform = 'scale(0)'
+        }
+      }
+    }
   }
 }
 </script>

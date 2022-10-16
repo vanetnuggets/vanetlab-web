@@ -29,13 +29,11 @@ export default {
     }
   },
   mounted() {
-    this.team = []
-    console.log(team_data)
+    this.team = [];
     for (let idx in team_data) {
       let elem = team_data[idx];
       if (elem.id == 0) {
         this.veducko = elem;
-        console.log(this.veducko)
       } else {
         this.team.push(elem);
       }
