@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     build_pic() {
-      let full_uri = `/public/${this.pic}`;
+      let full_uri = `${this.pic}`;
       return full_uri
     }
   }
