@@ -1,4 +1,5 @@
 <template>
+  <Themetoggler class="lft"/>
   <div class="tab" @click="goto(1)">
     <a href="#about">O projekte</a>
   </div>
@@ -16,10 +17,23 @@
   </div>
 </template>
 
+<style scoped>
+
+.lft {
+  position: fixed;
+  left: 10px;
+}
+
+</style>
+
 <script>
+import Themetoggler from './Themetoggler.vue'
 
 export default {
   name: "VHeader",
+  components: {
+    Themetoggler
+  },
   methods: {
     goto(id) {
       this.$store.commit('exit_page');

@@ -17,34 +17,20 @@ export default {
   },
   created() {
     document.title = "VANETnuggets";
+  },
+  computed: {
+    get_theme() {
+      return this.$store.getters.theme
+    }
   }
 }
 
 </script>
 
 <template>
-  <div class="main glass">
+  <div class="main" :class="get_theme">
     <About />
     <Team />
     <Zapisnik />
   </div>
 </template>
-
-<style scoped>
-  .glass {
-    background: rgba(255,255,255,0.42);
-    
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(86, 147, 195, 1);
-  }
-</style>
-
-<style>
-html{
-  scroll-behavior: smooth;
-}
-
-</style>

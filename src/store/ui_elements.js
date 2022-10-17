@@ -10,7 +10,8 @@ const isElemVisible = (el) => {
 let state = {
   fadein_els: [],
   show_ui: 0,
-  showing: false
+  showing: false,
+  theme: ''
 }
 
 let mutations = {
@@ -30,6 +31,9 @@ let mutations = {
     setTimeout(() => {
       state.show_ui = 0;
     }, 300);
+  },
+  change_theme(state, theme) {
+    state.theme = theme;
   }
 }
 
@@ -42,6 +46,10 @@ let getters = {
   },
   showing(state) {
     return state.showing;
+  },
+  theme(state) {
+    console.log(state.theme);
+    return state.theme;
   }
 }
 
