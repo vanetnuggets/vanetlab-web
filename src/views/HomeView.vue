@@ -14,6 +14,9 @@ export default {
       this.$store.commit('add_fadein_el', e);
     }
     this.$store.dispatch("handleScroll");
+  },
+  created() {
+    document.title = "VANETnuggets";
   }
 }
 

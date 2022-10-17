@@ -20,6 +20,20 @@ export default {
 
 <style scoped>
 .bg-new {
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 29%, rgba(0,212,255,1) 100%);;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 13%, rgba(45,126,253,1) 100%);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
 }
 </style>

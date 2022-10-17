@@ -3,10 +3,10 @@
     "id": 0,
     "title": "O projekte",
     "subtitle": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Eros donec ac odio tempor orci dapibus ultrices. Dui accumsan sit amet nulla facilisi morbi. Dignissim sodales ut eu sem. Urna nec tincidunt"
-  },{
+    "text": "Cieľom projetku je vytvoriť softvér, ktorý uľahčí prácu s nástrojmi na simuláciu komunikácie vehicle-to-vehicle (V2V) a vehicle-to-infrastructure (V2I). Konkrétne a jedná o nástroje SUMO a ns-3."
+    },{
     "id": 1,
-    "title": "Co to je vanet?",
+    "title": "Čo to je VANET?",
     "subtitle": "a na co mi je ako dobry ?",
     "text": "praesent semper feugiat nibh sed pulvinar. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Tellus molestie nunc non blandit massa enim nec. Purus in mollis nunc sed id semper risus in hendrerit. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Amet commodo nulla facilisi nullam vehicula ipsum. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Id interdum velit laoreet id donec ultrices tincidunt."
   },{
