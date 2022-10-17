@@ -15,9 +15,6 @@ export default {
     }
     this.$store.dispatch("handleScroll");
   },
-  created() {
-    document.title = "VANETnuggets";
-  },
   computed: {
     get_theme() {
       return this.$store.getters.theme
