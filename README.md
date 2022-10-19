@@ -1,9 +1,36 @@
-# tp-web
+ VANETnuggets
 
-* `/` -> "staticka" verzia auticka si len jazdia na bokoch \
-* `/dev/` -> "itneraktivna" verzia, kde ti to otvara veci ked klikas na auticka, vyzera hnusno zatial treba tam vyladit css
+```
+                                                         _________________________   
+                    /\\      _____          _____       |   |     |     |    | |  \  
+     ,-----,       /  \\____/__|__\_    ___/__|__\___   |___|_____|_____|____|_|___\ 
+  ,--'---:---`--, /  |  _     |     `| |      |      `| |                    | |    \
+ ==(o)-----(o)==J    `(o)-------(o)=   `(o)------(o)'   `--(o)(o)--------------(o)--'  
+`````````````````````````````````````````````````````````````````````````````````````
+```
 
-# vue readme:
+* `/` -> "statická" verzia stránky, autíčka si len jazdia po okrajoch hore a dole
+* `/dev/` -> "interaktívna" verzia, jednotlivé autíčka otvárajú časti stránky 
+
+## Project Setup
+Najprv nainštaluj všetky moduly príkazom
+```sh
+npm install
+```
+
+### Kompilácia a Hot-Reload development
+Stránka sa ti bude automaticky refreshovať, ak spravíš zmeny v súboroch
+```sh
+npm run dev
+```
+
+### Kompilácia a minifikácia pre produkciu
+
+```sh
+npm run build
+```
+
+ # vue readme:
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -14,21 +41,3 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
