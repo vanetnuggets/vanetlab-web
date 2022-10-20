@@ -1,28 +1,18 @@
 <template>
-    <div v-if="type=='left'" class="sprint_item left fade-in">
-        <div class="name">
+    <div class="sprint_item fade-in" :class="type">
+        <div class="date">
             <p>
-                {{name}}
+              {{date}}
             </p>
         </div>
         <i class="icon fa fa-cog"></i>
         <div class="content">
-            <p>
-                {{text}}
-            </p>
-        </div>
-    </div>
-    <div v-else class="sprint_item right fade-in">
-        <div class="name">
-            <p>
-                {{name}}
-            </p>
-        </div>
-        <i class="icon fa fa-cog"></i>
-        <div class="content">
-            <p>
-                {{text}}
-            </p>
+          <h2>
+            {{name}}
+          </h2>
+          <p>
+            {{text}}
+          </p>
         </div>
     </div>
 </template>
@@ -33,6 +23,7 @@
   export default {
     name: "SprintItem",
     props: {
+      date: String,
       name: String,
       text: String,
       type: String
@@ -47,7 +38,7 @@
 *::after {
   box-sizing: border-box;
 }
-.sprint_item .name {
+.sprint_item .date {
   position: absolute;
   display: inline-block;
   top: calc(50% - 20px);
@@ -60,11 +51,11 @@
   z-index: 1;
 }
 
-.sprint_item.left .name {
+.sprint_item.left .date {
   right: -130px;
 }
 
-.sprint_item.right .name {
+.sprint_item.right .date {
   left: -130px;
 }
 

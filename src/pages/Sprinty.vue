@@ -5,10 +5,10 @@
       <div class="sprint_list">
         <div v-for="(e, i) in sprints" :key="e.id">
             <div v-if="i % 2 == 0">
-                <sprint-item :text="e.text" :name="e.name" :type="'left'" />
+                <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'left'" />
             </div>
             <div v-else>
-                <sprint-item :text="e.text" :name="e.name" />
+                <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'right'"/>
             </div>
           </div>
       </div>
