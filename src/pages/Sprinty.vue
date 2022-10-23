@@ -37,10 +37,10 @@
     },
     methods: {
       get_type(i){
-        if (i%2==0){
-          return 'left '+this.get_theme
+        if (i % 2 == 0){
+          return 'left ' + this.get_theme
         }
-        return 'right '+this.get_theme
+        return 'right ' + this.get_theme
       }
     }
   }

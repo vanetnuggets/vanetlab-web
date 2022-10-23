@@ -4,7 +4,7 @@
     "name": "Peter Truchly",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros.",
     "picture": "peter.jpg",
-    "role": "project owner"
+    "role": "Project owner"
   },{
     "id": 1,
     "name": "Ondrej Martinka",
@@ -19,13 +19,13 @@
     "role": "celebrita na bicykli"
   },{
     "id": 3,
-    "name": "Samuel Kaceriak",
+    "name": "Samuel Kačeriak",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium aenean pharetra magna ac placerat. In ornare quam viverra orci sagittis eu.",
     "picture": "samko.webp",
     "role": "autobusovy senzor"
   },{
     "id": 4,
-    "name": "Richard Andrasik",
+    "name": "Richard Andrášik",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt id aliquet risus feugiat in. Ante in nibh mauris cursus mattis molestie a iaculis.",
     "picture": "risko.webp",
     "role": "bluetooth saman"
