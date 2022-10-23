@@ -11,7 +11,7 @@ let state = {
   fadein_els: [],
   show_ui: 0,
   showing: false,
-  theme: ''
+  theme: 'samo'
 }
 
 let mutations = {
@@ -48,7 +48,6 @@ let getters = {
     return state.showing;
   },
   theme(state) {
-    console.log(state.theme);
     return state.theme;
   }
 }

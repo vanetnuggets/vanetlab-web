@@ -5,10 +5,10 @@
     <div class="sprint_list">
       <div v-for="(e, i) in sprints" :key="e.id">
         <div v-if="i % 2 == 0">
-          <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'left'" />
+          <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'left '+get_theme" />
         </div>
       <div v-else>
-        <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'right'"/>
+        <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'right '+ get_theme"/>
       </div>
     </div>  
   </div>
@@ -61,9 +61,9 @@
       this.$store.dispatch("handleScroll");
     },
     computed: {
-    get_theme() {
-      return this.$store.getters.theme
+      get_theme() {
+        return this.$store.getters.theme
+      }
     }
-  }
   }
   </script>

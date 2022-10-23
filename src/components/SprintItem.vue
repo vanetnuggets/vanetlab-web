@@ -1,6 +1,6 @@
 <template>
     <div :class="type" class="sprint_item fade-in" >
-        <div class="date">
+        <div class="date" :class="type">
             <p>
               {{date}}
             </p>
@@ -8,11 +8,11 @@
         <i class="icon fa fa-cog">
           <car class="smol" :class="type" />
         </i>
-        <div class="content">
-          <h2 class="noop">
+        <div class="content" :class="type">
+          <h2 :class="type">
             {{name}}
           </h2>
-          <p class="noop">
+          <p :class="type">
             {{text}}
           </p>
         </div>
@@ -26,6 +26,9 @@
     name: "SprintItem",
     components: {
       Car
+    },
+    mounted() {
+      console.log(this.type)
     },
     props: {
       date: String,
@@ -81,6 +84,10 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
+
+    &.samo {
+      color: var(--samo_text);
+    }
   }
 
   .icon {
@@ -105,11 +112,18 @@
     background: rgba(255,255,255,0.4);
     position: relative;
 
+    &.samo {
+      background: rgba(255,255,255,0.1);
+    }
+
     h2 {
       margin: 0 0 10px 0;
       font-size: 18px;
       font-weight: normal;
       color: #001d6e;
+      &.samo {
+        color: var(--samo_title2);
+      }
     }
     p {
       margin: 0;
@@ -117,6 +131,10 @@
       line-height: 22px;
       color: #000000;
       opacity: 1;
+
+      &.samo {
+        color: var(--samo_text);
+      }
     }
   } 
 
