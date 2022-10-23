@@ -76,7 +76,8 @@ export default {
   data() {
     return {
       opened: false,
-      text: ""
+      text: "",
+      info: "click this to show color themes"
     }
   },
   methods: {
@@ -91,10 +92,12 @@ export default {
     },
     toggle() {
       this.opened = !this.opened;
+      this.info = `click this to ${this.opened === false ? 'show':'hide'} color themes`
+      this.text = this.info
     },
     show(s) {
       if (s == 'help') {
-        this.text = "click to show/hide color themes";
+        this.text = this.info;
       } else if (s == 'z'){
         this.text = "night mode 🌛"
       } else if (s == 's') {
