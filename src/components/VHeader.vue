@@ -6,8 +6,10 @@
   <div class="tab" @click="goto(2)">
     <a href="#team">Nas tim</a>
   </div>
-  <div class="tab">
-    VANETlab
+  <div class="tab maintitle">
+    <div class="container maintitle">
+      VANETlab
+    </div>
   </div>
   <div class="tab" @click="goto(4)">
     <a href="#sprinty">Sprinty</a>
