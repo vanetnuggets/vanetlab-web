@@ -48,13 +48,13 @@
   margin-top: 0px;
 
   &.left {
-    margin-left: 45px;
-    margin-top: 13px;
+    margin-left: 38px;
+    margin-top: 16px;
     transform:rotate(135deg);
   }
 
   &.right {
-    margin-left: 15px;
+    margin-left: 22px;
     margin-top: -5px;
     transform:rotate(45deg);
 
@@ -104,7 +104,7 @@
     font-size: 18px;
     color: #001d6e;
     z-index: 1;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    //box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
   .content {
