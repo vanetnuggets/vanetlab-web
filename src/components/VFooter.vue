@@ -27,11 +27,11 @@
 .tooltip {
   position: relative;
   display: inline-block;
+  width: 150px;
   border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
-  width: 120px;
   background-color: black;
   opacity: 0.5;
   color: #fff;
