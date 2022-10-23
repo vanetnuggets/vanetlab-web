@@ -1,14 +1,17 @@
 <template>
   <div class="xd">
     <button class="btn opn" @click="toggle()" @mouseenter="show('help')" @mouseleave="show('')">🎨</button>
-    <div v-show="opened">
-      <button class="btn" @click="standard()" @mouseenter="show('s')" @mouseleave="show('')">S</button>
-      <button class="btn" @click="vojto()" @mouseenter="show('v')" @mouseleave="show('')">V</button>
-    </div>
-
-    <div v-if="text != ''" class="tooltip">
-      {{ text }}  
-    </div>
+    <transition>
+      <div v-show="opened">
+        <button class="btn" @click="standard()" @mouseenter="show('s')" @mouseleave="show('')">S</button>
+        <button class="btn" @click="vojto()" @mouseenter="show('v')" @mouseleave="show('')">V</button>
+      </div>
+    </transition>
+    <transition>
+      <div v-if="text != ''" class="tooltip upsidedown">
+        {{ text }}  
+      </div>
+    </transition>
   </div>
   
 </template>
@@ -17,20 +20,22 @@
 
 .tooltip {
   position: absolute;
-  left: 10px;
-  top: 30px;
+  right: -100px;
+  left: 0px;
+  bottom: 30px;
   background-color: white;
   padding: 5px;
   border-radius: 10px;
   max-width: 300px;
+  box-shadow: rgba(8, 8, 48, 0.9) 10px 3px 10px;
 }
 
 .xd {
   position: absolute;
   display: flex;
   border-radius: 20px;
-  background-color: lightblue;
-  
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 .btn {
@@ -39,6 +44,7 @@
   border: none;
   background-color: white;
   color: navy;
+  outline: 1px solid transparent;
   height: 20px;
     width: 22px;
 
@@ -52,7 +58,8 @@
 }
 
 .btn:hover {
-  background-color: blueviolet;
+  box-shadow: rgba(3, 4, 94, 0.4) 0px 0px 2px 2px;
+  color: #03045E;
   transition: 0.3s;
   cursor: pointer;
 }

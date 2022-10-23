@@ -1,16 +1,18 @@
 <template>
-    <div class="sprint_item fade-in" :class="type">
+    <div :class="type" class="sprint_item fade-in" >
         <div class="date">
             <p>
               {{date}}
             </p>
         </div>
-        <i class="icon fa fa-cog"></i>
+        <i class="icon fa fa-cog">
+          <car class="smol" :class="type" />
+        </i>
         <div class="content">
-          <h2>
+          <h2 class="noop">
             {{name}}
           </h2>
-          <p>
+          <p class="noop">
             {{text}}
           </p>
         </div>
@@ -19,9 +21,12 @@
   
   
 <script>
-  
+  import Car from "./Car.vue"
   export default {
     name: "SprintItem",
+    components: {
+      Car
+    },
     props: {
       date: String,
       name: String,
@@ -32,6 +37,26 @@
 </script>
 
 <style scoped lang="scss">
+
+.smol {
+  scale: 0.3;
+  position: inherit;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  &.left {
+    margin-left: 45px;
+    margin-top: 13px;
+    transform:rotate(135deg);
+  }
+
+  &.right {
+    margin-left: 15px;
+    margin-top: -5px;
+    transform:rotate(45deg);
+
+  }
+}
 
 *,
 *::before,
@@ -63,22 +88,22 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    padding: 9px 0;
+    padding: 4px 0;
     top: calc(50% - 20px);
-    background: #55f6f6;
-    border: 2px solid #001d6e;
+    background: transparent;
+    //border: 2px solid #001d6e;
     border-radius: 40px;
     text-align: center;
     font-size: 18px;
     color: #001d6e;
     z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
   .content {
-    padding: 30px 90px 30px 30px;
-    background: #55f6f6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: rgba(255,255,255,0.4);
     position: relative;
-    border-radius: 0 500px 500px 0;
 
     h2 {
       margin: 0 0 10px 0;
@@ -91,6 +116,7 @@
       font-size: 16px;
       line-height: 22px;
       color: #000000;
+      opacity: 1;
     }
   } 
 
@@ -101,6 +127,10 @@
     }
     .icon {
       right: 56px;
+    }
+    .content {
+      border-radius: 0 500px 500px 0;
+      padding: 10px 90px 10px 30px;
     }
   }
 
@@ -116,7 +146,7 @@
       left: 8px;
     }
     .content {
-      padding: 30px 30px 30px 90px;
+      padding: 10px 30px 10px 90px;
       border-radius: 500px 0 0 500px;
     }
     .icon {
@@ -136,7 +166,7 @@
     border-radius: 16px;
     z-index: 1;
   }
-  
+
   &::before {
     content: '';
     position: absolute;

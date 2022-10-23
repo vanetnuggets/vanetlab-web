@@ -1,12 +1,11 @@
 <template>
-  <Themetoggler class="lft"/>
   <div class="tab" @click="goto(1)">
     <a href="#about">O projekte</a>
   </div>
   <div class="tab" @click="goto(2)">
     <a href="#team">Nas tim</a>
   </div>
-  <div class="tab maintitle">
+  <div class="tab">
     <div class="container maintitle">
       VANETlab
     </div>
@@ -20,11 +19,6 @@
 </template>
 
 <style scoped>
-
-.lft {
-  position: fixed;
-  left: 10px;
-}
 
 </style>
 

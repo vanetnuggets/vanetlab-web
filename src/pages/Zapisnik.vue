@@ -1,6 +1,6 @@
 <template>
   <div class="bigtitle hline_top fade-in" id="zapisnik">
-    Zoznam zapisnikov
+    Dokumenty
   </div>
   <div class="jebo">
     <div class="zap_list">

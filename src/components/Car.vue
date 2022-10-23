@@ -15,12 +15,19 @@
   </div>
 </template>
 
+<style scoped>
+
+</style>
+
 <script>
 export default {
   name: "car",
   props: {
     my_class: String,
     id: Number
+  },
+  mounted() {
+    console.log(this.my_class)
   },
   methods: {
     showMe() {

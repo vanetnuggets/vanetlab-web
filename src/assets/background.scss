@@ -130,24 +130,24 @@
 
 @keyframes movedown {
   0% {
-    left: 3%;
+    left: 5%;
     top: -10%;
 
   }
   100% {
-    left: 3%;
+    left: 5%;
     top: 110%;
   }
 }
 
 @keyframes moveup {
   0% {
-    right: 3%;
+    right: 5%;
     top: 110%;
     transform:rotate(180deg);
   }
   100% {
-    right: 3%;
+    right: 5%;
     top: -10%;
     transform:rotate(180deg);
   }

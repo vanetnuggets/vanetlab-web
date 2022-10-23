@@ -1,7 +1,7 @@
 <template>
   <div class="person-item fade-in">
     <div class="picture">
-      <img :src="build_pic()" width="140" height="140" class="picture">
+      <img :src="build_pic()" width="140" height="140" class="picture pic">
     </div>
     <div class="title">
       {{ name }} <br>

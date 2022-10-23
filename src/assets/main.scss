@@ -23,12 +23,13 @@ header {
   top: 0%;
   opacity: 1;
 
-  border-bottom: 2px solid navy;
+  box-shadow: rgba(8, 8, 48, 0.9) 10px 3px 10px;
 
   .tab {
     width: 100px;
     background-color: none;
     text-align: center;
+    text-shadow: 1px 2px 2px rgba(179, 147, 211, 0.8);
 
     a {
       text-decoration: none;
@@ -92,8 +93,9 @@ header {
   bottom: 0%;
   opacity: 1;
 
-  border-top: 2px solid navy;
+  //border-top: 2px solid navy;
   transition: 0.3s;
+  box-shadow: rgba(8, 8, 48, 0.9) 10px 3px 10px;
 }
 
 .team {
@@ -120,6 +122,12 @@ header {
   .picture {
     text-align: center;
     border-radius: 100%;
+    
+
+    &.pic {
+      background-color: yellow;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
   }
   .text {
     padding-top: 15px;
@@ -136,8 +144,11 @@ header {
   top: 0%;
   width: 100%;
   height: 100%;
-  background-color: #11114f;
-
+  background-color: rgba(1,2,64,1);
+  background-image:
+  linear-gradient(60deg, rgba(3,4,94,.6) 25%, transparent 25%, transparent 75%, rgba(3,4,94,.6) 75%, rgba(3,4,94,.6)),
+  linear-gradient(120deg, rgba(3,4,94,.6) 25%, transparent 25%, transparent 75%, rgba(3,4,94,.6) 75%, rgba(3,4,94,.6));
+  background-size: 200px 150px;
   &.vojto {
       background-image: url("background.jpg");
       background-size: cover;
@@ -161,6 +172,7 @@ header {
   padding: 50px 20px 50px 20px;
 
   min-height: 100vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   &.vojto:before {
     background-attachment: fixed;
@@ -257,6 +269,7 @@ header {
   font-size: 20px;
   font-weight: bold;
   color: #000055;
+  text-shadow: 1px 2px 2px rgba(179, 147, 211, 0.8);
 }
 
 .hline_top {
@@ -265,6 +278,9 @@ header {
   padding-top: 10px;
 }
 
+.title {
+  text-shadow: 1px 2px 2px rgba(179, 147, 211, 0.8);
+}
 
 .zap_item {
   max-width: 400px;
@@ -291,7 +307,7 @@ header {
 }
 
 .zap_item:hover {
-  outline: 2px solid navy;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: 0s;
   cursor: pointer;
 }

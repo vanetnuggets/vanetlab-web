@@ -1,20 +1,20 @@
 <template>
-    <div class="bigtitle hline_top fade-in" id="sprinty">
-      Zoznam šprintov
-    </div>
-      <div class="sprint_list">
-        <div v-for="(e, i) in sprints" :key="e.id">
-            <div v-if="i % 2 == 0">
-                <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'left'" />
-            </div>
-            <div v-else>
-                <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'right'"/>
-            </div>
-          </div>
+  <div class="title bigtitle hline_top fade-in" id="sprinty">
+    Zoznam šprintov
+  </div>
+    <div class="sprint_list">
+      <div v-for="(e, i) in sprints" :key="e.id">
+        <div v-if="i % 2 == 0">
+          <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'left'" />
+        </div>
+      <div v-else>
+        <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'right'"/>
       </div>
-  </template>
+    </div>  
+  </div>
+</template>
   
-  <style scoped>
+<style scoped>
   *,
 *::before,
 *::after {
