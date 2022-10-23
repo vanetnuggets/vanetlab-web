@@ -1,4 +1,7 @@
 <template>
+<div class="foter">
+    Team8@fiit.stu
+  </div>
   <div class="fotercontent">
     Team8@fiit.stu <br>
     <br>
@@ -6,9 +9,7 @@
     email: tp.team8.22@gmail.com<br>
     github: https://github.com/vanetnuggets <br>
     </div>
-  <div class="foter">
-    Team8@fiit.stu
-  </div>
+  
 </template>
 
 <script>
