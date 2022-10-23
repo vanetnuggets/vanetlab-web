@@ -32,7 +32,7 @@ export default {
   bottom: 0px;
   left: 0px;
   margin: 2px;
-  z-index: 1;
+  z-index: 3;
 }
 </style>>
 
