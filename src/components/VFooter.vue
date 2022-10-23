@@ -1,25 +1,25 @@
 <template>
-<div class="foter">
-    Team8@fiit.stu
+<div class="foter" :class="get_theme">
+    <div class="text" :class="get_theme">Team8@fiit.stu</div>
   </div>
-  <div class="fotercontent">
+  <div class="fotercontent" :class="get_theme">
     <div class="columns" style="align-items: center;">
-      (c) Majstri kodu @ 2022 a random ranjit od ktoreho kopirujem css ✌️
+      <div class="text" :class="get_theme">(c) Majstri kodu @ 2022 a random ranjit od ktoreho kopirujem css ✌️</div>
       <div @mouseover="showTool" class="tooltip">
         <span v-show="tool" class="tooltiptext">{{ text }}</span>
       </div>
       <div class="row" style="justify-content: space-between; align-items: center; max-width: 265px; margin: auto; padding-top: 10px;">
-        <Gmail style="cursor: pointer" title="Copy" v-on:click="pop"></Gmail>
-        <Facebook style="cursor: pointer" v-on:click="gotosite('https://www.facebook.com/FIIT.STU')"></Facebook>
-        <Twitter style="cursor: pointer" v-on:click="gotosite('https://twitter.com/fiitstu?lang=en')"></Twitter>
-        <Github style="cursor: pointer" v-on:click="gotosite('https://github.com/vanetnuggets')"></Github>
-        <Azure style="cursor: pointer" v-on:click="gotosite('https://dev.azure.com/xmartinkao/TP-VANETlab')"></Azure>
-        <Instagram style="cursor: pointer" v-on:click="gotosite('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley')"></Instagram>
+        <Gmail class="icon" :class="get_theme" title="Copy" v-on:click="pop"></Gmail>
+        <Facebook class="icon" :class="get_theme" v-on:click="gotosite('https://www.facebook.com/FIIT.STU')"></Facebook>
+        <Twitter class="icon" :class="get_theme" v-on:click="gotosite('https://twitter.com/fiitstu?lang=en')"></Twitter>
+        <Github class="icon" :class="get_theme" v-on:click="gotosite('https://github.com/vanetnuggets')"></Github>
+        <Azure class="icon" :class="get_theme" v-on:click="gotosite('https://dev.azure.com/xmartinkao/TP-VANETlab')"></Azure>
+        <Instagram class="icon" :class="get_theme" v-on:click="gotosite('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley')"></Instagram>
       </div>
     </div>
   </div>
-  <div class="foter">
-    Team8@fiit.stu
+  <div class="foter" :class="get_theme">
+    <div class="text" :class="get_theme">Team8@fiit.stu</div>
   </div>
 </template>
 
@@ -82,6 +82,11 @@ export default {
       this.tool = true
       setTimeout(() => this.tool = false, 750)
     },
+  },
+  computed: {
+    get_theme() {
+      return this.$store.getters.theme
+    }
   },
   components: { Facebook, Twitter, Gmail, Github, Azure, Instagram }
 }

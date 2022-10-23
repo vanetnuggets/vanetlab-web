@@ -1,6 +1,6 @@
 <template>
   <div class="zap_item fade-in" @click="onClick()">
-    <div class="zap_image">
+    <div class="zap_image" :class="get_theme">
       <div v-if="downloading">
         <img src="/src/assets/loading.gif" width="48" height="48" />
       </div>
@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <div class="text">
+    <div class="text" :class="get_theme">
       {{ file }} <br>
       <div class="desc">
         {{ date }}
@@ -44,6 +44,11 @@ export default {
       setTimeout(() => {
         this.downloading = false;
       }, 1000);
+    }
+  },
+  computed: {
+    get_theme() {
+      return this.$store.getters.theme
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="title bigtitle hline_top fade-in" id="sprinty">
+  <div class="title bigtitle hline_top fade-in" :class="get_theme" id="sprinty">
     Zoznam šprintov
   </div>
     <div class="sprint_list">
@@ -59,6 +59,11 @@
         this.$store.commit('add_fadein_el', e);
       }
       this.$store.dispatch("handleScroll");
+    },
+    computed: {
+    get_theme() {
+      return this.$store.getters.theme
     }
+  }
   }
   </script>

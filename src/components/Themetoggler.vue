@@ -1,10 +1,11 @@
 <template>
-  <div class="xd">
+  <div class="xd" :class="get_theme">
     <button class="btn opn" @click="toggle()" @mouseenter="show('help')" @mouseleave="show('')">🎨</button>
     <transition>
       <div v-show="opened">
         <button class="btn" @click="standard()" @mouseenter="show('s')" @mouseleave="show('')">S</button>
         <button class="btn" @click="vojto()" @mouseenter="show('v')" @mouseleave="show('')">V</button>
+        <button class="btn" @click="samo()" @mouseenter="show('ZZZ')" @mouseleave="show('')">👀</button>
       </div>
     </transition>
     <transition>
@@ -29,15 +30,6 @@
   max-width: 300px;
   box-shadow: rgba(8, 8, 48, 0.9) 10px 3px 10px;
 }
-
-.xd {
-  position: absolute;
-  display: flex;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-}
-
 .btn {
   margin: 3px;
   border-radius: 100%;
@@ -77,6 +69,10 @@ export default {
     }
   },
   methods: {
+    samo() {
+      console.log('S');
+      this.$store.commit('change_theme', 'samo');
+    },
     vojto() {
       console.log('V');
       this.$store.commit('change_theme', 'vojto');
@@ -96,6 +92,11 @@ export default {
         this.text = 'vojtov glass shit 🤮';
       } else 
         this.text = s;
+    }
+  },
+  computed: {
+    get_theme() {
+      return this.$store.getters.theme
     }
   }
 }

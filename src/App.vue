@@ -2,7 +2,7 @@
   <Background />
   <router-view  />
   
-  <header>
+  <header :class="get_theme">
     <VHeader />
   </header>
 
@@ -26,7 +26,10 @@ export default {
   computed: {
     fadein() {
       return this.$store.getters.fadein_els;
-    }
+    },
+    get_theme() {
+    return this.$store.getters.theme
+  }
   },
   date() {
     return {
@@ -44,6 +47,6 @@ export default {
     test() {
       this.$store.dispatch('handleScroll');
     }
-  }
+  },
 }
 </script>

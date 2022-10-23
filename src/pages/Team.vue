@@ -1,6 +1,6 @@
 <template>
   <div class="team" id="team">
-    <div class="bigtitle hline_top fade-in">
+    <div class="bigtitle hline_top fade-in" :class="get_theme">
       Nas tim
     </div>
     
@@ -44,6 +44,11 @@ export default {
     }
     this.$store.dispatch("handleScroll");
     this.team.sort((a, b) => {return a.name - b.name})
+  },
+  computed: {
+    get_theme() {
+      return this.$store.getters.theme
+    }
   }
 }
 </script>

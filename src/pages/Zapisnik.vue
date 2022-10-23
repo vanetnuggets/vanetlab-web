@@ -1,5 +1,5 @@
 <template>
-  <div class="bigtitle hline_top fade-in" id="zapisnik">
+  <div class="bigtitle hline_top fade-in" :class="get_theme" id="zapisnik">
     Dokumenty
   </div>
   <div class="documents">
@@ -50,6 +50,11 @@ export default {
       this.$store.commit('add_fadein_el', e);
     }
     this.$store.dispatch("handleScroll");
+  },
+  computed: {
+    get_theme() {
+      return this.$store.getters.theme
+    }
   }
 }
 </script>

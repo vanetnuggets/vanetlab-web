@@ -1,3 +1,16 @@
+:root{
+  --samo_main: #1B262C;
+  --samo_title: #f0f9ff;
+  --samo_title2: #f0f9ff;
+  --samo_text: #9ed8ff;
+  --samo_image: #3282B8;
+  --samo_image_hover: #f0f9ff;
+  --samo_hline: 2px solid #3282B8;
+  --samo_tab_background: #0f4c75;
+  --samo_gradient: radial-gradient(#f0f9ff, #3282B8)
+  --s_b_g: rgba(3,4,94,.6);
+}
+
 * {
   font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   font-size: 13px;
@@ -24,6 +37,10 @@ header {
   opacity: 1;
   z-index: 2;
 
+  &.samo {
+    background-color: var(--samo_tab_background);
+  }
+
   box-shadow: rgba(8, 8, 48, 0.9) 10px 3px 10px;
 
   .tab {
@@ -35,6 +52,9 @@ header {
     a {
       text-decoration: none;
       color: black;
+      &.samo {
+        color: var(--samo_title);
+      }
     }
     a:hover {
       color: pink;
@@ -64,6 +84,10 @@ header {
         animation: typing 10s infinite steps(16);
         white-space: nowrap;
         overflow: hidden;
+
+        &.samo {
+          background-image: var(--samo_gradient);
+        }
       }
 
       @keyframes typing {
@@ -100,6 +124,27 @@ header {
   box-shadow: rgba(8, 8, 48, 0.9) 10px 10px 10px 10px;
   justify-content: center;
   align-items: center;
+  &.samo {
+    background-color: var(--samo_main);
+  }
+  .columns {
+    .text {
+      &.samo {
+        color: var(--samo_text);
+      }
+    }
+  }
+  .icon {
+    cursor: pointer;
+    &.samo {
+      color: var(--samo_image);
+    }
+  }
+  .icon:hover {
+    &.samo {
+      color: var(--samo_image_hover);
+    }
+  }
 }
 
 .foter {
@@ -115,6 +160,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  &.samo {
+    background-color: var(--samo_main);
+  }
+  .text {
+    &.samo {
+      color: var(--samo_text);
+    }
+  }
 }
 
 .team {
@@ -133,10 +186,16 @@ header {
     font-weight: bold;
     text-align: center;
     font-size: 14px;
+    &.samo {
+      color: var(--samo_title2);
+    }
   }
   .role {
     text-align: center;
     opacity: .75;
+    &.samo {
+      color: var(--samo_title2);
+    }
   }
   .picture {
     text-align: center;
@@ -150,6 +209,10 @@ header {
   }
   .text {
     padding-top: 15px;
+    &.samo {
+      color: var(--samo_text);
+    }
+    
   }
 }
 
@@ -180,8 +243,11 @@ header {
       justify-content: center;
       align-items: center;
   }
-  
-  
+  &.samo {
+    background-image:
+    linear-gradient(60deg, rgba(3,4,94,.4) 25%, transparent 25%, transparent 75%, rgba(3,4,94,.4) 75%, rgba(3,4,94,.4)),
+    linear-gradient(120deg, rgba(3,4,94,.4) 25%, transparent 25%, transparent 75%, rgba(3,4,94,.4) 75%, rgba(3,4,94,.4));
+  }
 }
 
 .main {
@@ -217,6 +283,10 @@ header {
     position: absolute;
     overflow: hidden;*/
   }
+
+  &.samo {
+    background-color: var(--samo_main);
+  }
 }
 
 .myframe {
@@ -232,6 +302,9 @@ header {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  &.samo {
+    background-color: var(--samo_main);
+  }
 }
 
 .framehdr {
@@ -264,15 +337,24 @@ header {
     padding-top: 10px;
     text-align: center;
     font-size: 15px;
+    &.samo {
+      color: var(--samo_title);
+    }
   }
   .subtitle {
     text-align: center;
     font-size: 13px;
     opacity: 0.7;
+    &.samo {
+      color: var(--samo_title2);
+    }
   }
   .text {
     text-align: center;
     padding-top: 5px;
+    &.samo {
+      color: var(--samo_text);
+    }
   }
   padding-bottom: 50px;
 }
@@ -289,12 +371,18 @@ header {
   font-weight: bold;
   color: #000055;
   text-shadow: 1px 2px 2px rgba(179, 147, 211, 0.8);
+  &.samo {
+    color: var(--samo_title);
+  }
 }
 
 .hline_top {
   width: 100%;
   border-top: 2px solid #000055;
   padding-top: 10px;
+  &.samo {
+    border-top: var(--samo_hline);
+  }
 }
 
 .title {
@@ -311,6 +399,9 @@ header {
     width: 50px;
     grid-column: 1;
     grid-row: 1;
+    &.samo {
+      color: var(--samo_image);
+    }
   }
 
   .text {
@@ -318,6 +409,10 @@ header {
     grid-row: 1;
     width: 100%;
     margin: auto 0;
+
+    &.samo {
+      color: var(--samo_text);
+    }
 
     .desc {
       opacity: .7;
@@ -362,4 +457,15 @@ header {
   background-color: #ff5050;
   color: #ff5050;
   transition: 0.3s;
+}
+
+.xd {
+  position: absolute;
+  display: flex;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  &.samo {
+    background-color: var(--samo_tab_background);
+  }
 }

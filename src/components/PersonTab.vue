@@ -3,13 +3,13 @@
     <div class="picture">
       <img :src="build_pic()" width="140" height="140" class="picture pic">
     </div>
-    <div class="title">
+    <div class="title" :class="get_theme">
       {{ name }} <br>
     </div>
-    <div class="role">
+    <div class="role" :class="get_theme">
       {{ role }} <br>
     </div>
-    <div class="text">
+    <div class="text" :class="get_theme">
         {{ desc }}
     </div>
   </div>
@@ -28,6 +28,11 @@ export default {
     build_pic() {
       let full_uri = `${this.pic}`;
       return full_uri
+    }
+  },
+  computed: {
+    get_theme() {
+      return this.$store.getters.theme
     }
   }
 }
