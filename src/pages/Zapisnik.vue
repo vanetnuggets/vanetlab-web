@@ -2,7 +2,7 @@
   <div class="bigtitle hline_top fade-in" id="zapisnik">
     Dokumenty
   </div>
-  <div class="jebo">
+  <div class="documents">
     <div class="zap_list">
       <div class="col_left">
         <div v-for="(e, i) in files" :key="e.id">
@@ -23,7 +23,7 @@
 </template>
 
 <style scoped>
-.jebo {
+.documents {
   display: flex;
   width: 100%;
   justify-content: center;
