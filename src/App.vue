@@ -6,9 +6,7 @@
     <VHeader />
   </header>
 
-  <footer>
-    <VFooter />
-  </footer>
+  <VFooter />
 </template>
 
 <script>

@@ -28,9 +28,11 @@
   border-radius: 10px;
   max-width: 300px;
   box-shadow: rgba(8, 8, 48, 0.9) 10px 3px 10px;
+  z-index: -100;
 }
 
 .xd {
+  z-index: -100;
   position: absolute;
   display: flex;
   border-radius: 20px;
