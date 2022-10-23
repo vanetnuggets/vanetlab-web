@@ -1,5 +1,5 @@
 <template>
-    <div :class="type" class="sprint_item fade-in" >
+    <div class="sprint_item fade-in" :class="type" >
         <div class="date" :class="type">
             <p>
               {{date}}
@@ -35,6 +35,11 @@
       name: String,
       text: String,
       type: String
+    },
+    computed: {
+      get_theme() {
+        return this.$store.getters.theme
+      }
     }
   }
 </script>
@@ -61,11 +66,11 @@
   }
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+// *,
+// *::before,
+// *::after {
+//   box-sizing: border-box;
+// }
 
 .sprint_item {
   padding: 15px 30px;
@@ -171,7 +176,12 @@
       left: 56px;
     }
   }
-
+  &.samo {
+    &::after {
+      background: var(--samo_sprint_line);
+      border: 2px solid var(--samo_sprint_line);
+    }
+  }
   &::after {
     content: '';
     position: absolute;
@@ -183,8 +193,16 @@
     border: 2px solid #001d6e;
     border-radius: 16px;
     z-index: 1;
+    &.samo {
+      background: red;
+    }
   }
 
+  &.samo {
+    &::before {
+      background: var(--samo_sprint_line);
+    }
+  }
   &::before {
     content: '';
     position: absolute;
@@ -194,6 +212,7 @@
     right: 8px;
     background: #001d6e;
     z-index: 1;
+
   }
 }
 

@@ -2,41 +2,19 @@
   <div class="title bigtitle hline_top fade-in" :class="get_theme" id="sprinty">
     Zoznam šprintov
   </div>
-    <div class="sprint_list">
+    <div class="sprint_list" :class="get_theme">
       <div v-for="(e, i) in sprints" :key="e.id">
-        <div>
-          <sprint-item :text="e.text" :name="e.name" :date="e.date" :type=get_type(i) />
+        <div v-if="i % 2 == 0">
+          <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'left '+ get_theme" />
         </div>
+      <div v-else>
+        <sprint-item :text="e.text" :name="e.name" :date="e.date" :type="'right '+ get_theme"/>
+      </div>
     </div>  
   </div>
 </template>
   
-<style scoped>
-  *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-  .sprint_list {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 15px 0;
-}
-.sprint_list::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  background: #001d6e;
-  top: 0;
-  bottom: 10px;
-  left: 50%;
-  margin-left: -1px;
-}
-  </style>>
-  
-  <script>
+<script>
   import sprints_raw from '/src/assets/sprinty.json'
   import SprintItem from '../components/SprintItem.vue'
   
@@ -61,14 +39,6 @@
       get_theme() {
         return this.$store.getters.theme
       }
-    },
-    methods: {
-      get_type(i){
-        if (i%2==0){
-          return 'left '+this.get_theme
-        }
-        return 'right '+this.get_theme
-      }
     }
   }
-  </script>
+</script>

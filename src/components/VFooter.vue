@@ -42,53 +42,53 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  right: 19.3rem;
+  right: -1.1rem;
   top: -0.4rem;
 }
 </style>
 
 <script>
-import Facebook from '../../node_modules/vue-material-design-icons/Facebook.vue'
-import Twitter from '../../node_modules/vue-material-design-icons/Twitter.vue'
-import Gmail from '../../node_modules/vue-material-design-icons/Gmail.vue'
-import Github from '../../node_modules/vue-material-design-icons/Github.vue'
-import Azure from '../../node_modules/vue-material-design-icons/MicrosoftAzure.vue'
-import Instagram from '../../node_modules/vue-material-design-icons/Instagram.vue'
+  import Facebook from '../../node_modules/vue-material-design-icons/Facebook.vue'
+  import Twitter from '../../node_modules/vue-material-design-icons/Twitter.vue'
+  import Gmail from '../../node_modules/vue-material-design-icons/Gmail.vue'
+  import Github from '../../node_modules/vue-material-design-icons/Github.vue'
+  import Azure from '../../node_modules/vue-material-design-icons/MicrosoftAzure.vue'
+  import Instagram from '../../node_modules/vue-material-design-icons/Instagram.vue'
 
-export default {
-  name: "VFooter",
-  data() {
-    return {
-      open: false,
-      tool: false,
-      text: "Copied!"
-    };
-  },
-  methods: {
-    onClick() {
-      this.open = !this.open;
+  export default {
+    name: "VFooter",
+    data() {
+      return {
+        open: false,
+        tool: false,
+        text: "Copied!"
+      };
     },
-    gotosite(producturl){
-      window.open(
-        producturl,
-        '_blank'
-      )
+    methods: {
+      onClick() {
+        this.open = !this.open;
+      },
+      gotosite(producturl){
+        window.open(
+          producturl,
+          '_blank'
+        )
+      },
+      copyEmail(txt) {
+        navigator.clipboard.writeText(txt);
+      },
+      pop() {
+        this.copyEmail('tp.team8.22@gmail.com')
+        this.tool = true
+        setTimeout(() => this.tool = false, 750)
+      },
     },
-    copyEmail(txt) {
-      navigator.clipboard.writeText(txt);
+    computed: {
+      get_theme() {
+        return this.$store.getters.theme
+      }
     },
-    pop() {
-      this.copyEmail('tp.team8.22@gmail.com')
-      this.tool = true
-      setTimeout(() => this.tool = false, 750)
-    },
-  },
-  computed: {
-    get_theme() {
-      return this.$store.getters.theme
-    }
-  },
-  components: { Facebook, Twitter, Gmail, Github, Azure, Instagram }
-}
+    components: { Facebook, Twitter, Gmail, Github, Azure, Instagram }
+  }
 
 </script>

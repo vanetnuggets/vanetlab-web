@@ -6,9 +6,42 @@
   --samo_image: #3282B8;
   --samo_image_hover: #f0f9ff;
   --samo_hline: 2px solid #3282B8;
+  --samo_sprint_line: #3282B8;
   --samo_tab_background: #0f4c75;
-  --samo_gradient: radial-gradient(#f0f9ff, #3282B8)
+  --samo_gradient: radial-gradient(#f0f9ff, #3282B8);
   --s_b_g: rgba(3,4,94,.6);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.sprint_list {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.sprint_list{
+  &::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #001d6e;
+    top: 0;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -1px;
+  }
+  &.samo {
+    &::after {
+    background: var(--samo_sprint_line);
+    }
+  }
 }
 
 * {
