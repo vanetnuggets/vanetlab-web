@@ -26,14 +26,12 @@
 <style>
 .tooltip {
   position: relative;
-  display: inline-block;
   width: 150px;
-  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.7;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -42,8 +40,9 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  right: -1.1rem;
-  top: -0.4rem;
+  right: -4.8rem;
+  top: -1rem;
+  width: 70px;
 }
 </style>
 
