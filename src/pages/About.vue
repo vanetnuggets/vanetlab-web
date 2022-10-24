@@ -7,8 +7,8 @@
       <div v-if="a.subtitle.length > 0 " class="subtitle" :class="get_theme"> 
         {{ a.subtitle }}  
       </div> 
-      <div class="text" :class="get_theme">
-        {{ a.text }}
+      <div class="text" :class="get_theme" v-for="t, index in a.text" :key="index">
+        {{ t }}
       </div>
       <div class="space10"/>
       <div class="space10"/>

@@ -3,16 +3,25 @@
     "id": 0,
     "title": "O projekte",
     "subtitle": "",
-    "text": "Cieľom projetku je vytvoriť softvér, ktorý uľahčí prácu s nástrojmi na simuláciu komunikácie vehicle-to-vehicle (V2V) a vehicle-to-infrastructure (V2I). Konkrétne a jedná o nástroje SUMO a ns-3."
-    },{
+    "text": [
+      "Cieľom projetku je vytvoriť softvér, ktorý uľahčí prácu s nástrojmi na simuláciu komunikácie vehicle-to-vehicle (V2V) a vehicle-to-infrastructure (V2I). Konkrétne a jedná o nástroje SUMO a ns-3."
+    ] 
+   },{
     "id": 1,
     "title": "Čo to je VANET?",
     "subtitle": "a na čo mi je ako dobrý ?",
-    "text": "Vehicular ad-hoc networks (VANETs) sú vytvorené využítím princípov MANETs (mobile ad hoc networks) - spontánne vytvorenie bezdrôtovej siete - v doméne dopravných prostriedkov. Je to typ decentralizovanej siete. Sieť je ad hoc, pretože nepotrebuje vlastnú infraštruktúru, ako sú routery alebo prístupové body. Šírenie dát medti uzlami zabezpečujú samotné uzly."
+    "text": [
+      "Vehicular ad-hoc networks (VANETs) sú vytvorené využítím princípov MANETs (mobile ad hoc networks) - spontánne vytvorenie bezdrôtovej siete - v doméne dopravných prostriedkov. Je to typ decentralizovanej siete. Sieť je ad hoc, pretože nepotrebuje vlastnú infraštruktúru, ako sú routery alebo prístupové body. Šírenie dát medti uzlami zabezpečujú samotné uzly. Konceptuálna predstava VANET sietí spočíva v zosieťovaní dopravných uzlov (jednotlivých riadiacich dopravných jednotiek), účastníkov dopravy a prípadne aj externých účastníkov. "
+    ]
   },{
     "id": 2,
-    "title": "Dost dobre, dufam ze aj nabuduci tyzden donesies tortu dubak",
+    "title": "Prečo SUMO, ns-3?",
     "subtitle": "a idealne aj vidlicky",
-    "text": "Purus viverra accumsan in nisl nisi scelerisque eu ultrices. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit. Et magnis dis parturient montes nascetur ridiculus mus mauris vitae. Vel orci porta non pulvinar neque laoreet suspendisse. Cras ornare arcu dui vivamus."
+    "text": [
+      "K dosiahnutiu cieľa projektu budeme využívať nástroje SUMO a ns-3.",
+      "Druhý odsek",
+      "Tretí odsek",
+      "Lorem ipsum amen"
+    ]
   }
 ]
