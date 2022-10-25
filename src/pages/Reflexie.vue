@@ -28,17 +28,17 @@
 </style>>
 
 <script>
-import zapisnik_raw from '/src/assets/zapisniky.json'
+import reflexie_raw from '/src/assets/reflexie.json'
 import ZapisnikItem from '../components/ZapisnikItem.vue'
 
 export default {
-  name: "Zapisnik",
+  name: "Reflexie",
   components: {
     ZapisnikItem
   },
   data() {
     return {
-      files: zapisnik_raw
+      files: reflexie_raw
     }
   },
   mounted() {

@@ -1,14 +1,14 @@
 <script>
 import About from "../pages/About.vue"
 import Team from "../pages/Team.vue"
-import Zapisnik from "../pages/Zapisnik.vue"
+import Documents from "../pages/Documents.vue"
 import Sprinty from "../pages/Sprinty.vue"
 import Themetoggler from '../components/Themetoggler.vue'
 
 export default {
   name: "Home",
   components: {
-    About, Team, Sprinty, Zapisnik, Themetoggler
+    About, Team, Sprinty, Documents, Themetoggler
   },
   mounted() {
     let fel = Array.from(document.getElementsByClassName('fade-in'))
@@ -37,12 +37,11 @@ export default {
 </style>>
 
 <template>
-  
   <div class="main" :class="get_theme">
     <About />
     <Team />
     <Sprinty />
-    <Zapisnik />
+    <Documents />
   </div>
   <Themetoggler class="lft"/>
 </template>
