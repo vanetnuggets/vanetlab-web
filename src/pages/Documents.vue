@@ -69,11 +69,11 @@ export default {
 }
 
 button {
+  cursor: pointer;
   height: 35px;
   width: 33%;
   margin: 5px 25px;
   border-radius: 5px;
-  
   
   font-size: 14pt;
   color: #001d6e;
