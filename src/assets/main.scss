@@ -197,6 +197,9 @@ header {
     background-color: var(--samo_main);
   }
   .text {
+    padding: 6px;
+    z-index: 6;
+    background-color: inherit;
     &.samo {
       color: var(--samo_text);
     }

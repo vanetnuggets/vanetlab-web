@@ -20,10 +20,34 @@
   </div>
   <div class="foter" :class="get_theme">
     <div class="text" :class="get_theme">Team8@fiit.stu</div>
+    <div class="ascii" style="scale:0.45">
+      <p>        ,-----,</p>
+      <p>&    ,--'---:---`--,</p>
+      <p> @& ==(o)-----(o)==J</p>
+    </div>
   </div>
 </template>
 
-<style>
+<style lang="scss">
+.ascii{
+  font: 6pt Georgia,sans-serif;
+  font-family: monospace;
+  color: white;
+  height: 100px;
+  width: 300px;
+  top: -27px;
+  position: absolute;
+  animation: example 18s infinite linear;
+  p {
+    margin: 0;
+  }
+}
+
+@keyframes example {
+  0% {left: -10%} 
+  100% { left: 105% }
+}
+
 .tooltip {
   position: relative;
   width: 150px;
