@@ -40,7 +40,7 @@ export default {
   methods: {
     async onClick() {
       this.downloading = true;
-      window.open(`/public/${this.file}`);
+      window.open(`/${this.file}`);
       setTimeout(() => {
         this.downloading = false;
       }, 1000);

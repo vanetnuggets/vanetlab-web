@@ -10,7 +10,7 @@
     "name": "Ondrej Martinka",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo urna molestie at elementum eu facilisis. Nisl rhoncus mattis rhoncus urna neque viverra justo.",
     "picture": "ondro.webp",
-    "role": "frontend main"
+    "role": "Frontend carry"
   },{
     "id": 2,
     "name": "Andrej Dubovsky",
@@ -32,9 +32,9 @@
   },{
     "id": 5,
     "name": "Vojtech Fudaly",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Lacus sed viverra tellus in hac habitasse.",
+    "description": "ff15 ez bot",
     "picture": "vojto.webp",
-    "role": "kvantovy specialista"
+    "role": "Frontend support"
   },{
     "id": 6,
     "name": "Roman Grom",

@@ -2,10 +2,12 @@
     <div class="bigtitle hline_top fade-in" :class="get_theme" id="zapisnik">
         Dokumenty
     </div>
-    <div>
-        <button @click="change_document('Z')">ZAPISNKY</button>
-        <button @click="change_document('M')">Metodiky</button>
-        <button @click="change_document('R')">REFLEXE</button>
+    <div style="width:100%; margin-top:15px;">
+      <div class="wrapper">
+        <button @click="change_document('Z')" :class="isActive('Z') + get_theme">Zápisníky</button>
+        <button @click="change_document('M')" :class="isActive('M') + get_theme">Metodiky</button>
+        <button @click="change_document('R')" :class="isActive('R') + get_theme">Reflexie</button>
+      </div>
     </div>
     <Zapisnik v-if="type=='Z'"/>
     <Metodiky v-if="type=='M'"/>
@@ -37,7 +39,53 @@ export default {
   methods: {
     change_document(to){
         this.type = to;
+    },
+    isActive(selected) {
+    if (this.type == selected)
+      return "active "
+    return ""
     }
   }
 }
 </script>
+
+<style lang="scss">
+.active {
+  background: #bababa;
+  &.samo {
+    background: var(--samo_sprint_line);
+    color: var(--samo_title);
+  }
+  &.vojto {
+    background: purple;
+    color: var(--samo_title);
+  }
+}
+
+.wrapper{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  height: 35px;
+  width: 33%;
+  margin: 5px 25px;
+  border-radius: 5px;
+  
+  
+  font-size: 14pt;
+  color: #001d6e;
+  &.samo{
+    background: rgba(255,255,255,0.1);
+    color: var(--samo_text);
+  }
+  &.vojto {
+    background: #ff80ff;
+    color: var(--samo_title);
+    z-index: 2;
+  }
+
+}
+</style>
