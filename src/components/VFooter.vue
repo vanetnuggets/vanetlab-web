@@ -24,7 +24,7 @@
         Team8@fiit.stu
       </div>
     </div>
-    <div class="ascii" style="scale:0.45; margin-top: 9px;">
+    <div class="ascii" :class="get_theme" style="scale:0.45; margin-top: 9px;">
       <p>{{text3}}</p>
       <p>{{text1}}</p>
       <p>{{text2}}</p>
@@ -41,12 +41,15 @@
 .ascii{
   font: 6pt Georgia,sans-serif;
   font-family: monospace;
-  color: white;
+  color: #000;
   height: 100px;
   width: 300px;
   top: -27px;
   position: absolute;
   animation: example 25s infinite linear;
+  &.samo {
+    color: #fff;
+  }
   p {
     margin: 0;
   }
