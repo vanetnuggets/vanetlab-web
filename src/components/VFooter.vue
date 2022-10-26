@@ -25,9 +25,9 @@
       </div>
     </div>
     <div class="ascii" style="scale:0.45; margin-top: 9px;">
-      <p>        ,-----,</p>
-      <p>&    ,--'---:---`--,</p>
-      <p> @& ==(o)-----(o)==J</p>
+      <p>{{text3}}</p>
+      <p>{{text1}}</p>
+      <p>{{text2}}</p>
     </div>
   </div>
 </template>
@@ -93,10 +93,26 @@
       return {
         open: false,
         tool: false,
-        text: "Copied!"
+        text: "Copied!",
+        text1: "&    ,--'---:---`--,",
+        text2: " @& ==(o)-----(o)==J",
+        text3: "       ,-----,  ",
       };
     },
     methods: {
+      changeText() {
+        if (this.text1 == "&    ,--'---:---`--,") {
+          this.text1 = " &&  ,--'---:---`--,"
+          this.text2 = "  & ==(o)-----(o)==J"
+          this.text3 = "&        ,-----,    "
+        }
+        else {
+          this.text1 = "&    ,--'---:---`--,"
+          this.text2 = " @& ==(o)-----(o)==J"
+          this.text3 = "         ,-----,    "
+        }
+        setTimeout(this.changeText, 1000)
+      },
       onClick() {
         this.open = !this.open;
       },
@@ -119,6 +135,9 @@
       get_theme() {
         return this.$store.getters.theme
       }
+    },
+    beforeMount(){
+      this.changeText()
     },
     components: { Facebook, Twitter, Gmail, Github, Azure, Instagram }
   }
