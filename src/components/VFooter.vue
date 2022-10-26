@@ -24,7 +24,7 @@
         Team8@fiit.stu
       </div>
     </div>
-    <div class="ascii" :class="get_theme" style="scale:0.45; margin-top: 9px;">
+    <div class="ascii" :class="get_theme" style="scale:0.55; margin-top: 6px;">
       <p>{{text3}}</p>
       <p>{{text1}}</p>
       <p>{{text2}}</p>
@@ -99,7 +99,7 @@
         text: "Copied!",
         text1: "&    ,--'---:---`--,",
         text2: " @& ==(o)-----(o)==J",
-        text3: "       ,-----,  ",
+        text3: "        ,-----,  ",
       };
     },
     methods: {
@@ -107,14 +107,14 @@
         if (this.text1 == "&    ,--'---:---`--,") {
           this.text1 = " &&  ,--'---:---`--,"
           this.text2 = "  & ==(o)-----(o)==J"
-          this.text3 = "&        ,-----,    "
+          this.text3 = "&       ,-----,    "
         }
         else {
           this.text1 = "&    ,--'---:---`--,"
-          this.text2 = " @& ==(o)-----(o)==J"
-          this.text3 = "         ,-----,    "
+          this.text2 = " @& ==(O)-----(O)==J"
+          this.text3 = "        ,-----,    "
         }
-        setTimeout(this.changeText, 1000)
+        setTimeout(this.changeText, 500)
       },
       onClick() {
         this.open = !this.open;
