@@ -19,8 +19,12 @@
     </div>
   </div>
   <div class="foter" :class="get_theme">
-    <div class="text" :class="get_theme">Team8@fiit.stu</div>
-    <div class="ascii" style="scale:0.45">
+    <div class="text" :class="get_theme" style="background: url('tunnel.png'); background-size:100% 100%; padding: 20px;">
+      <div class="text" :class="get_theme" style="margin-top: 2px;">
+        Team8@fiit.stu
+      </div>
+    </div>
+    <div class="ascii" style="scale:0.45; margin-top: 9px;">
       <p>        ,-----,</p>
       <p>&    ,--'---:---`--,</p>
       <p> @& ==(o)-----(o)==J</p>
@@ -29,6 +33,11 @@
 </template>
 
 <style lang="scss">
+// .text {
+//   // background-image: url('tunnel.png');
+//   background: url('tunnel.png') no-repeat center center fixed;
+//   background-size:100% 100%;
+// }
 .ascii{
   font: 6pt Georgia,sans-serif;
   font-family: monospace;
@@ -37,7 +46,7 @@
   width: 300px;
   top: -27px;
   position: absolute;
-  animation: example 18s infinite linear;
+  animation: example 25s infinite linear;
   p {
     margin: 0;
   }
