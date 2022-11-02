@@ -4,7 +4,7 @@
     "title": "O projekte",
     "subtitle": "",
     "text": [
-      "Cieľom projetku je vytvoriť softvér, ktorý uľahčí prácu s nástrojmi na simuláciu komunikácie vehicle-to-vehicle (V2V) a vehicle-to-infrastructure (V2I). Konkrétne a jedná o nástroje SUMO a ns-3."
+      "Cieľom projektu je vyvinúť vzdialené virtuálne laboratórium, ktoré umožní a uľahčí simulácie sietí VANET. Laboratórium bude dostupné prostredníctvom webovej aplikácie. Aplikácia bude poskytovať grafické rozhranie, pomocou ktorého používateľ dokáže vytvoriť scenár simulácie dopravnej situácie, v ktorej bude prebiehať dátová komunikácia medzi vozidlami, alebo vozidlami a infraštruktúrou. Aplikácia bude schopná pracovať s výstupom nástroja SUMO. Po vytvorení simulačného scenára dopravnej siete (VANET) aplikácia spustí simuláciu v nástroji ns-3 a následne vyhodnotí priebeh a výsledky simulácie."
     ] 
    },{
     "id": 1,
