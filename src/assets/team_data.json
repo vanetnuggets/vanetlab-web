@@ -8,37 +8,37 @@
   },{
     "id": 1,
     "name": "Ondrej Martinka",
-    "description": "Nenechajte sa oklamať jeho, na prvý pohľad, tichším vonkajším pôsobením. V oblasti tímového projektu pôsobí ako neoblomný diktátor, ktorému nevedno protirečiť.  Každú chybu trestá nemilosrdne. Riadi sa životným mottom: „Škola je celý môj život“. Preto celé jeho štúdium smeruje k jedinému cieľu. A to dosiahnutiu doktorandskému stupňu štúdia.",
+    "description": "Nenechajte sa oklamať jeho, na prvý pohľad, tichším vonkajším pôsobením. V oblasti tímového projektu pôsobí ako neoblomný diktátor, ktorému nevedno protirečiť. Každú chybu trestá nemilosrdne. Riadi sa životným mottom: „Škola je celý môj život“. Preto celé jeho štúdium smeruje k jedinému cieľu. A to dosiahnutiu doktorandského stupňa štúdia.",
     "picture": "ondro.webp",
     "role": "Odborník pre vzhľad Aplikácie"
   },{
     "id": 2,
     "name": "Andrej Dubovský",
-    "description": "No a je to tu zas. Vďaka jeho očarujúcej bakalárskej práci bol požiadaní, aby pre fakultu natočil reklamné video na Instagram. Od vtedy má nos vystrelený niekde v oblakoch. Miluje akýkoľvek šport a vždy sa tvári ako najlepší. Aj keď všetci vedia že to tak nie je. Jeho silnou stránkou sú jeho skúsenosti a znalosti v oblasti vzťahov. Tak ak máte nejaký takýto problém,  kľudne sa na neho obráťte.",
+    "description": "No a je to tu zas. Vďaka jeho očarujúcej bakalárskej práci bol požiadaný, aby pre fakultu natočil reklamné video na Instagram. Od vtedy má nos vystrelený niekde v oblakoch. Miluje akýkoľvek šport a vždy sa tvári ako najlepší. Aj keď všetci vedia, že to tak nie je. Jeho silnou stránkou sú jeho skúsenosti a znalosti v oblasti vzťahov. Tak ak máte nejaký takýto problém, kľudne sa na neho obráťte.",
     "picture": "dubak.webp",
     "role": "Fiit celebrita na bicykli"
   },{
     "id": 3,
     "name": "Samuel Kačeriak",
-    "description": "Mimo jeho dosahu je nazývaní aj „Pastier“. Túto prezývku si získal pre jeho schopnosť ovplyvňovať životy. Preto kým nie ste si istý na 100% vašim názorom, tak sa k nemu radšej ani nepribližujte. Miluje drámu. Teda pokiaľ sa ho netýka. Rád investuje do bicyklov ale neznáša drahé jedlá. Jeho super schopnosťou je, že vie nájsť zlú vlastnosť na hocičom a hocikom.",
+    "description": "Mimo jeho dosahu je nazývaní aj „Pastier“. Túto prezývku si získal pre jeho schopnosť ovplyvňovať životy. Preto, kým si nie ste istý na 100% vaším názorom, tak sa k nemu radšej ani nepribližujte. Miluje drámu. Teda pokiaľ sa ho netýka. Rád investuje do bicyklov, ale neznáša drahé jedlá. Jeho super schopnosťou je, že vie nájsť zlú vlastnosť na hocičom a hocikom.",
     "picture": "samko.webp",
     "role": "Pastier venujúci sa autobusovím senzorom"
   },{
     "id": 4,
     "name": "Richard Andrášik",
-    "description": "V projekte bol jednohlasne zvolený, kvôli svojej nadmernej dominancií, za Scrum mastera. Avšak v realite môžeme povedať, že ak je on hlava, tak Ondro je krk ktorý s ním krúti a Samo nohy, ktoré ním hýbu. Je psychicky naviazaní na svojho „Jaštera“, s ktorým rád trávi čas osamote. Miluje bubnovanie a trošku sa ponáša na piráta, aj so všetkým, čo k tomu patrí. Jeho najobľúbenejším mestom je Nitra.",
+    "description": "V projekte bol jednohlasne zvolený, kvôli svojej nadmernej dominancií, za Scrum mastera. Avšak v realite môžeme povedať, že ak je on hlava, tak Ondro je krk, ktorý ním krúti a Samo nohy, ktoré ním hýbu. Je psychicky naviazaný na svojho „Jaštera“, s ktorým rád trávi čas osamote. Miluje bubnovanie a trošku sa ponáša na piráta, aj so všetkým, čo k tomu patrí. Jeho najobľúbenejším mestom je Nitra.",
     "picture": "risko.webp",
     "role": "Nič robiaci bluetooth šaman"
   },{
     "id": 5,
     "name": "Vojtech Fudaly",
-    "description": "Áno je to on. Mnohé sa nás pýtajú, či sú všetky chýry, ktoré o ňom kolujú pravdivé. S istotou môžeme len potvrdiť, že nikto okrem neho to nevie naisto. Ak máte to šťastie a máte frajerku, odporúčame aby ste ju držali od neho čo najďalej, pokiaľ o ňu nechcete prísť. Patrí medzi „intrákovú“ elitu a rád chodí do kotolne. Aj keď nikto iný s tímu nevie, čo presne tam robí.",
+    "description": "Áno je to on. Mnohé sa nás pýtajú, či sú všetky chýry, ktoré o ňom kolujú, pravdivé. S istotou môžeme len potvrdiť, že nikto okrem neho to nevie naisto. Ak máte to šťastie a máte frajerku, odporúčame aby ste ju držali od neho čo najďalej, pokiaľ o ňu nechcete prísť. Svoj čas využíva tak efektívne, že aj keď má predmety za dvoch, tak spánok mu nidky nechýba.",
     "picture": "vojto.webp",
     "role": "Poradca pre vzhľad aplikácie a lámač ženských sŕdc"
   },{
     "id": 6,
     "name": "Roman Grom",
-    "description": "Len málokto vie o športových udalostiach a pive viacej ako on. Dostal požehnanie múdrosti v mnohých oblastiach života. Tieto vedomosti potom plne prezentuje pri kariére profesionálneho riešiteľa kvízov. Škoda len že nevie ako vyzerá Jozef Miloslav Hurban. Už pred mnohými rokmi objavil medzeru na trhu a tou sa aktuálne aj živý. Stávkovanie, automaty a odhŕňanie snehu.",
+    "description": "Len málokto vie o športových udalostiach a pive viac ako on. Dostal požehnanie múdrosti v mnohých oblastiach života. Tieto vedomosti potom plne prezentuje pri kariére profesionálneho riešiteľa kvízov. Škoda len, že nevie ako vyzerá Jozef Miloslav Hurban. Už pred mnohými rokmi objavil medzeru na trhu a tou sa aktuálne aj živí. Stávkovanie, automaty a odhŕňanie snehu.",
     "picture": "roman.webp",
     "role": "Databázový majster závisly na automatoch"
   }
