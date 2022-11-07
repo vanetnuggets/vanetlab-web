@@ -44,7 +44,7 @@
   }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 
 .smol {
   scale: 0.3;
@@ -213,6 +213,39 @@
     background: #001d6e;
     z-index: 1;
 
+  }
+}
+
+@media (max-width: 900px) {
+  .sprint_item {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+    &.right {
+      left: 0%;
+    }
+
+    &.left, &.right {
+      .date {
+        right: auto;
+        left: 0px;
+      }
+      .icon {
+        right: auto;
+        left: 146px;
+      }
+      .content {
+        padding: 30px 30px 30px 90px;
+        border-radius: 500px 0 0 500px;
+      }
+    }
+
+    &.left::after, &.right::after {
+      left: 82px;
+    }
+    &.left::before, &.right::before {
+      left: 96px;
+    }
   }
 }
 

@@ -43,6 +43,11 @@
     }
   }
 }
+@media (max-width: 900px) {
+  .sprint_list::after {
+    left: 90px;
+  }
+}
 
 * {
   font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
