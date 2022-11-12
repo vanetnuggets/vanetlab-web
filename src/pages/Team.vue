@@ -1,7 +1,7 @@
 <template>
   <div class="team" id="team">
     <div class="bigtitle hline_top fade-in" :class="get_theme">
-      Nas tim
+      Náš tím
     </div>
     
     <div class="row">

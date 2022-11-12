@@ -3,7 +3,7 @@
     <a href="#about" :class="get_theme">O projekte</a>
   </div>
   <div class="tab" @click="goto(2)">
-    <a href="#team" :class="get_theme">Nas tim</a>
+    <a href="#team" :class="get_theme">Náš tím</a>
   </div>
   <div class="tab">
     <div class="container maintitle" :class="get_theme">

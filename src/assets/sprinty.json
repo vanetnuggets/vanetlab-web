@@ -1,20 +1,8 @@
 [
     {
         "id": 0,
-        "date": "6.9.2000",
-        "name": "prvy sprint",
-        "text": "V tomto sprinte sme spravili fest vela"
-    },
-    {
-        "id": 1,
-        "date": "6.9.2000",
-        "name": "druhy sprint",
-        "text": "V tomto sprinte sme spravili fest velaV tomto sprinte sme spravili fest velaV tomto sprinte sme spravili fest velaV tomto sprinte sme spravili fest velaV tomto sprinte sme spravili fest velaV tomto sprinte sme spravili fest vela"
-    },
-    {
-        "id": 2,
-        "date": "6.9.2000",
-        "name": "treti sprint",
-        "text": "V tomto sprinte sme spravili fest vela"
+        "date": "3.11.2022",
+        "name": "Prvý šprint",
+        "text": "Vykonaná analýza aj s príslušnou dokumentáciou na nástroje ns-3 a SUMO Eclipse. Zdokumentovanie technológií SDN a VANET. Implementácia tímovej stránky a nasadenie na server."
     }
 ]

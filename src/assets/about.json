@@ -8,20 +8,26 @@
     ] 
    },{
     "id": 1,
-    "title": "Čo to je VANET?",
-    "subtitle": "a na čo mi je ako dobrý ?",
+    "title": "VANET",
+    "subtitle": "A na čo sa používa",
     "text": [
       "Vehicular ad-hoc networks (VANETs) sú vytvorené využítím princípov MANETs (mobile ad hoc networks) - spontánne vytvorenie bezdrôtovej siete - v doméne dopravných prostriedkov. Je to typ decentralizovanej siete. Sieť je ad hoc, pretože nepotrebuje vlastnú infraštruktúru, ako sú routery alebo prístupové body. Šírenie dát medti uzlami zabezpečujú samotné uzly. Konceptuálna predstava VANET sietí spočíva v zosieťovaní dopravných uzlov (jednotlivých riadiacich dopravných jednotiek), účastníkov dopravy a prípadne aj externých účastníkov. "
     ]
   },{
     "id": 2,
-    "title": "Prečo SUMO, ns-3?",
-    "subtitle": "a idealne aj vidlicky",
+    "title": "Nástroje SUMO Eclipse a ns-3",
+    "subtitle": "A využitie v našom projekte",
     "text": [
-      "K dosiahnutiu cieľa projektu budeme využívať nástroje SUMO a ns-3.",
-      "Druhý odsek",
-      "Tretí odsek",
-      "Lorem ipsum amen"
+      "ns-3 bude slúžiť ako backend, kde sa budú vykonávať potrebné výpočty. SUMO Eclipse bude pri webovej aplikácií povolený ako ďalší spôsob generovania vstupu.",
+      "„SUMO“ alebo aj Simulácia mestskej mobility“ je mikroskopická, multimodálna simulácia dopravy s otvoreným zdrojom. Umožňuje simulovať, ako sa daný dopravný dopyt, ktorý pozostáva z jednotlivých vozidiel, pohybuje po danej cestnej sieti. Simulácia umožňuje riešiť veľký súbor tém riadenia dopravy. Je čisto mikroskopická: každé vozidlo je explicitne modelované, má vlastnú trasu a pohybuje sa individuálne po sieti. Simulácie sú predvolene deterministické, ale existujú rôzne možnosti na zavedenie náhodnosti.",
+      "ns-3 je sieťový simulátor diskrétnych udalostí, určený predovšetkým na výskumné a vzdelávacie účely. ns-3 je softvér, licencovaný pod licenciou GNU GPLv2 a je verejne dostupný na výskum, vývoj a samotné použitie. Cieľom projektu ns-3 je vyvinúť preferované, otvorené simulačné prostredie pre sieťový výskum: malo by byť zosúladené so simulačnými potrebami moderného sieťového výskumu a malo by podporovať príspevok komunity, vzájomné hodnotenie a validáciu softvéru"
+    ]
+  },{
+    "id": 3,
+    "title": "SDN technológia",
+    "subtitle": "",
+    "text": [
+      "Softvérová sieťová technológia (SDN) predstavuje prístup k správe siete, ktorý umožňuje dynamickú, programovo efektívnu konfiguráciu siete s cieľom zlepšiť výkon a monitorovanie siete, čím sa viac podobá cloud computingu než tradičnej správe siete. SDN je určené na riešenie statickej architektúry tradičných sietí. SDN sa pokúša centralizovať sieťovú inteligenciu do jedného sieťového komponentu tým, že oddeľuje proces posielania sieťových paketov (údajová rovina) od procesu smerovania (riadiaca rovina)."
     ]
   }
 ]
