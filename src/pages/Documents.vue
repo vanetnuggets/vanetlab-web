@@ -64,7 +64,7 @@ export default {
 
 .wrapper{
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -72,7 +72,7 @@ button {
   cursor: pointer;
   height: 35px;
   width: 33%;
-  margin: 5px 25px;
+  margin: 5px 2%;
   border-radius: 5px;
   
   font-size: 14pt;
@@ -86,6 +86,15 @@ button {
     color: var(--samo_title);
     z-index: 2;
   }
+}
 
+@media (max-width: 720px) {
+  .wrapper {
+    display: grid;
+  }
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
 }
 </style>

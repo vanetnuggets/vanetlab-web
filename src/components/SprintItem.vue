@@ -216,7 +216,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 720px) {
   .sprint_item {
     width: 100%;
     padding-left: 120px;

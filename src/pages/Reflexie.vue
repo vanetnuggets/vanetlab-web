@@ -1,20 +1,9 @@
 <template>
   <div class="documents">
     <div class="zap_list">
-      <div class="col_left">
-        <div v-for="(e, i) in files" :key="e.id">
-          <div v-if="i % 2 == 0">
-            <zapisnik-item :file="e.file" :name="e.name" :date="e.date" />
-          </div>
+      <div v-for="e in files" :key="e.id">
+          <zapisnik-item :file="e.file" :name="e.name" :date="e.date" />   
         </div>
-      </div>
-      <div class="col_right">
-         <div v-for="(e, i) in files" :key="e.id">
-          <div v-if="i % 2 == 1">
-            <zapisnik-item :file="e.file" :name="e.name" :date="e.date" />
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>
