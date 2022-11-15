@@ -10,7 +10,7 @@
     </div>
 
     <div class="text" :class="get_theme">
-      {{ file }} <br>
+      {{ name }} <br>
       <div class="desc">
         {{ date }}
       </div>
