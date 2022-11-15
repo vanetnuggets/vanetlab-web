@@ -500,9 +500,12 @@ header {
 
 @media (max-width: 720px) {
   .sprint_list::after {
-    left: 90px;
+    display: none;
   }
   .zap_list {
     display: grid;
+  }
+  .main {
+    width: 100%;
   }
 }

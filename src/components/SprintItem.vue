@@ -218,33 +218,32 @@
 
 @media (max-width: 720px) {
   .sprint_item {
+    .date {
+      rotate: -90deg;
+    }
+    .icon {
+      display: none;
+    }
+    &.left::after, &.right::after, &.left::before, &.right::before{
+      display: none;
+    }
+  }
+  .sprint_item {
     width: 100%;
-    padding-left: 120px;
-    padding-right: 30px;
     &.right {
       left: 0%;
     }
 
-    &.left, &.right {
-      .date {
-        right: auto;
-        left: 0px;
-      }
-      .icon {
-        right: auto;
-        left: 146px;
-      }
+    &.right {
       .content {
-        padding: 30px 30px 30px 90px;
         border-radius: 500px 0 0 500px;
       }
     }
 
-    &.left::after, &.right::after {
-      left: 82px;
-    }
-    &.left::before, &.right::before {
-      left: 96px;
+    &.left {
+      .content {
+        border-radius: 0 500px 500px 0;
+      }
     }
   }
 }
