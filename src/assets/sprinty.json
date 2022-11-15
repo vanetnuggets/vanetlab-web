@@ -4,5 +4,10 @@
         "date": "3.11.2022",
         "name": "Prvý šprint",
         "text": "Vykonaná analýza aj s príslušnou dokumentáciou na nástroje ns-3 a SUMO Eclipse. Zdokumentovanie technológií SDN a VANET. Implementácia tímovej stránky a nasadenie na server."
-    }
+    },
+    {
+        "id": 1,
+        "date": "14.11.2022",
+        "name": "Druhý šprint",
+        "text": "TODO" }
 ]

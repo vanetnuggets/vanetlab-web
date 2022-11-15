@@ -1,22 +1,22 @@
 [
   {
     "id": 0,
-    "name": "Zápisnica prvého šprintu",
+    "name": "Zápisnica prvého stretnutia",
     "file": "zapisnice/Zapisnica_1.pdf",
     "date": "11.10.2022"
   },{
     "id": 1,
-    "name": "Zápisnica druhého šprintu",
+    "name": "Zápisnica druhého stretnutia",
     "file": "zapisnice/Zapisnica_2.pdf",
     "date": "18.10.2022"
   },{
     "id": 2,
-    "name": "Zápisnica tretieho šprintu",
+    "name": "Zápisnica tretieho stretnutia",
     "file": "zapisnice/Zapisnica_3.pdf",
     "date": "25.10.2022 "
   },{
     "id": 3,
-    "name": "Zápisnica štvrtého šprintu",
+    "name": "Zápisnica štvrtého stretnutia",
     "file": "zapisnice/Zapisnica_4.pdf",
     "date": "3.11.2022"
   }
