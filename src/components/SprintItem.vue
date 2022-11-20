@@ -220,6 +220,15 @@
   .sprint_item {
     .date {
       rotate: -90deg;
+
+      &.left {
+        right: 40px;
+        rotate: 90deg;
+      }
+
+      &.right {
+        right: 110px;
+      }
     }
     .icon {
       display: none;
@@ -230,6 +239,7 @@
   }
   .sprint_item {
     width: 100%;
+    padding: 15px;
     &.right {
       left: 0%;
     }
