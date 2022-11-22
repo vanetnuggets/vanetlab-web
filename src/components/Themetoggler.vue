@@ -56,7 +56,6 @@
     font-size: 14px;
     height: 20px;
     width: 22px;
-    padding-left: 2px;
   }
 }
 
