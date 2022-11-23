@@ -227,7 +227,7 @@
       }
 
       &.right {
-        right: 110px;
+        left: 25px;
       }
     }
     .icon {
