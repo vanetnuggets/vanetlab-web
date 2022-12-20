@@ -1,9 +1,23 @@
 <template>
   <div class="documents">
-    <div class="zap_list">      
-        <div v-for="e in files" :key="e.id">
-          <zapisnik-item :file="e.file" :name="e.name" :date="e.date" />   
-        </div>
+    <div class="zap_list"> 
+      <div class="bigtitle hline_bottom fade-in" :class="get_theme">
+        Metodiky
+      </div> 
+      <div v-for="e in files_m" :key="e.id">
+        <zapisnik-item :file="e.file" :name="e.name" :date="e.date" />   
+      </div>
+  </div>
+
+  </div>
+  <div class="documents">
+    <div class="zap_list"> 
+      <div class="bigtitle hline_bottom fade-in" :class="get_theme">
+        Dokumentácie
+      </div> 
+      <div v-for="e in files_d" :key="e.id">
+        <zapisnik-item :file="e.file" :name="e.name" :date="e.date" />   
+      </div>
     </div>
   </div>
 </template>
@@ -18,6 +32,7 @@
 
 <script>
 import metodiky_raw from '/src/assets/metodiky.json'
+import dokumentacie_raw from '/src/assets/dokumentacie.json'
 import ZapisnikItem from '../components/ZapisnikItem.vue'
 
 export default {
@@ -27,7 +42,8 @@ export default {
   },
   data() {
     return {
-      files: metodiky_raw
+      files_m: metodiky_raw,
+      files_d: dokumentacie_raw
     }
   },
   mounted() {

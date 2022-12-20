@@ -5,30 +5,30 @@
     <div style="width:100%; margin-top:15px;">
       <div class="wrapper">
         <button @click="change_document('Z')" :class="isActive('Z') + get_theme">Zápisníky</button>
-        <button @click="change_document('M')" :class="isActive('M') + get_theme">Metodiky</button>
         <button @click="change_document('R')" :class="isActive('R') + get_theme">Reflexie</button>
+        <button @click="change_document('I')" :class="isActive('I') + get_theme">Iné dokumenty</button>
       </div>
     </div>
     <Zapisnik v-if="type=='Z'"/>
-    <Metodiky v-if="type=='M'"/>
     <Reflexie v-if="type=='R'"/>
+    <Ine v-if="type=='I'"/>
 </template>
 
 <script>
 import Zapisnik from '../pages/Zapisnik.vue'
 import Reflexie from '../pages/Reflexie.vue'
-import Metodiky from '../pages/Metodiky.vue'
+import Ine from './Ine.vue'
 
 export default {
   name: "Documents",
   components: {
     Zapisnik,
     Reflexie,
-    Metodiky
+    Ine
   },
   data() {
     return {
-      type: 'M'
+      type: 'Z'
     }
   },
   computed: {

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "Motivačný list",
+        "file": "ine/Motivacny_list.pdf",
+        "date": "15.9.2022"
+    },
+    {
+        "id": 1,
+        "name": "Dokumentácia",
+        "file": "ine/Full_dokumentacia.pdf",
+        "date": "20.12.2022"
+    }
+]
