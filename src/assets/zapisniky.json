@@ -35,5 +35,23 @@
     "name": "Zápisnica siedmeho stretnutia",
     "file": "zapisnice/Zapisnica_7.pdf",
     "date": "22.11.2022"
+  },{
+    "id": 7,
+    "name": "Zápisnica ôsmeho stretnutia",
+    "file": "zapisnice/Zapisnica_8.pdf",
+    "date": "29.11.2022"
   }
+  ,{
+    "id": 6,
+    "name": "Zápisnica deviateho stretnutia",
+    "file": "zapisnice/Zapisnica_9.pdf",
+    "date": "6.12.2022"
+  }
+  ,{
+    "id": 6,
+    "name": "Zápisnica desiateho stretnutia",
+    "file": "zapisnice/Zapisnica_10.pdf",
+    "date": "13.12.2022"
+  }
+
 ]

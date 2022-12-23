@@ -9,5 +9,18 @@
         "id": 1,
         "date": "14.11.2022",
         "name": "Druhý šprint",
-        "text": "Dokončenie a oprava komponentov na tímovej stánke. Položili sme základy frontendu a backendu Vanet simulátora.  Zjednotili sme výzor našich zápisnikov a reflexii sprintov a položili základ metodikám." }
+        "text": "Dokončenie a oprava komponentov na tímovej stánke. Položili sme základy frontendu a backendu Vanet simulátora.  Zjednotili sme výzor našich zápisnikov a reflexii sprintov a položili základ metodikám." 
+    },
+    {
+        "id": 2,
+        "date": "29.11.2022",
+        "name": "Tretí šprint",
+        "text": "Vytvorenie funkčného prototypu frontendu aplikácie a prepojenie s backendom. Po tomto sprinte je základná funkcionalita aplikácie hotová. Nové wireframy, metodika a komponenty tímovej stránky." 
+    },
+    {
+        "id": 3,
+        "date": "12.12.2022",
+        "name": "Štvrtý šprint",
+        "text": "Dokončenie prototypu aplikácie 2. Posledný sprint za prvý semester. Vytvorenie dokumentácie spájaním ostatných súborov. " 
+    }
 ]
