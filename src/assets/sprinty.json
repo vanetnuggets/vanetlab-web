@@ -22,5 +22,11 @@
         "date": "12.12.2022",
         "name": "Štvrtý šprint",
         "text": "Dokončenie prototypu aplikácie 2. Posledný sprint za prvý semester. Vytvorenie dokumentácie spájaním ostatných súborov. " 
+    },
+    {
+        "id": 4,
+        "date": "3.3.2023",
+        "name": "Piaty šprint",
+        "text": "Prvý sprint druhého semestra, v ktorom je menšie množstvo úloh. Dokončenie zbytkových úloh z prvého semestra a rozširovanie hlavnej funkcionality aplikácie." 
     }
 ]

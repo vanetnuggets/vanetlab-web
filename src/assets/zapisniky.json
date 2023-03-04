@@ -42,16 +42,34 @@
     "date": "29.11.2022"
   }
   ,{
-    "id": 6,
+    "id": 8,
     "name": "Zápisnica deviateho stretnutia",
     "file": "zapisnice/Zapisnica_9.pdf",
     "date": "6.12.2022"
   }
   ,{
-    "id": 6,
+    "id": 9,
     "name": "Zápisnica desiateho stretnutia",
     "file": "zapisnice/Zapisnica_10.pdf",
     "date": "13.12.2022"
+  }
+  ,{
+    "id": 10,
+    "name": "Zápisnica jedenásteho stretnutia",
+    "file": "zapisnice/Zapisnica_11.pdf",
+    "date": "17.2.2023"
+  }
+  ,{
+    "id": 11,
+    "name": "Zápisnica dvanásteho stretnutia",
+    "file": "zapisnice/Zapisnica_12.pdf",
+    "date": "24.2.2023"
+  }
+  ,{
+    "id": 12,
+    "name": "Zápisnica trinásteho stretnutia",
+    "file": "zapisnice/Zapisnica_13.pdf",
+    "date": "3.3.2023"
   }
 
 ]
