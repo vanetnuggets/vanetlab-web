@@ -1,0 +1,25 @@
+name: FE_update
+
+on:
+  push:
+    branches: [ "main" ]
+  
+  # Manual button
+  workflow_dispatch:
+
+jobs:
+  # Job
+  build:
+    runs-on: ubuntu-latest
+
+    # Tasks
+    steps:
+    - name: executing remote ssh commands using ssh key
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USER }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        timeout: 10s
+        script: bash ~/update_web.sh
