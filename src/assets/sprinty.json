@@ -28,5 +28,17 @@
         "date": "3.3.2023",
         "name": "Piaty šprint",
         "text": "Prvý sprint druhého semestra, v ktorom je menšie množstvo úloh. Dokončenie zbytkových úloh z prvého semestra a rozširovanie hlavnej funkcionality aplikácie." 
+    },
+    {
+        "id": 5,
+        "date": "17.3.2023",
+        "name": "Šiesty šprint",
+        "text": "Rozširovanie funkcionality aplikácie, prerábanie backendu a babračky s drawerami." 
+    },
+    {
+        "id": 6,
+        "date": "30.3.2023",
+        "name": "Siedmy šprint",
+        "text": "Veľká likvidácia bugov a pridávanie niekoľkých funkcionalít a scenárov. Vizuálne už je aplikácia hotová, je však množstvo chýb vo frontende aj backende, čo treba odstrániť." 
     }
 ]

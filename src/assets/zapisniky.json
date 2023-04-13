@@ -71,5 +71,28 @@
     "file": "zapisnice/Zapisnica_13.pdf",
     "date": "3.3.2023"
   }
-
+  ,{
+    "id": 13,
+    "name": "Zápisnica štrnásteho stretnutia",
+    "file": "zapisnice/Zapisnica_14.pdf",
+    "date": "13.4.2023"
+  }
+  ,{
+    "id": 14,
+    "name": "Zápisnica pätnásteho stretnutia",
+    "file": "zapisnice/Zapisnica_15.pdf",
+    "date": "13.4.2023"
+  }
+  ,{
+    "id": 15,
+    "name": "Zápisnica šestnásteho stretnutia",
+    "file": "zapisnice/Zapisnica_16.pdf",
+    "date": "13.4.2023"
+  }
+  ,{
+    "id": 16,
+    "name": "Zápisnica sedemnásteho stretnutia",
+    "file": "zapisnice/Zapisnica_17.pdf",
+    "date": "13.4.2023"
+  }
 ]
