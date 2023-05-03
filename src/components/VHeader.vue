@@ -20,8 +20,16 @@
 
 <style scoped>
   .logo {
-    cursor: pointer;
+    cursor: url(/pointer_icon.svg) 1 1, auto;
   }
+  .cursor {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* .logo:hover {
+    cursor: url(C:\Users\uplny\Desktop\vanetlab-web\src\assets\logo.svg), auto;
+  } */
 </style>
 
 <script>
