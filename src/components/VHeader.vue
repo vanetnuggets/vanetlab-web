@@ -5,7 +5,7 @@
   <div class="tab" @click="goto(2)">
     <a href="#team" :class="get_theme">Náš tím</a>
   </div>
-  <div class="tab">
+  <div class="tab logo" @click="gotosite('https://vanetlab.ml/')">
     <div class="container maintitle" :class="get_theme">
       VANETlab
     </div>
@@ -19,7 +19,17 @@
 </template>
 
 <style scoped>
+  .logo {
+    cursor: url(/pointer_icon.svg) 1 1, auto;
+  }
+  .cursor {
+    width: 10px;
+    height: 10px;
+  }
 
+  /* .logo:hover {
+    cursor: url(C:\Users\uplny\Desktop\vanetlab-web\src\assets\logo.svg), auto;
+  } */
 </style>
 
 <script>
@@ -36,7 +46,13 @@ export default {
       setTimeout(()=> {
         this.$store.commit('show_page', id);
       }, 400);
-    }
+    },
+    gotosite(producturl){
+        window.open(
+          producturl,
+          '_blank'
+        )
+      },
   },
   computed: {
     get_theme() {
