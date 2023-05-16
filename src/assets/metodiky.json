@@ -1,8 +1,14 @@
 [
     {
         "id": 0,
-        "name": "Metodika SCRUMu",
+        "name": "Metodika SCRUM",
         "file": "ine/Metodika_SCRUM.pdf",
         "date": "4.11.2022"
+    },
+    {
+        "id": 1,
+        "name": "Metodika Git",
+        "file": "ine/Metodika_Git.pdf",
+        "date": "16.5.2022"
     }
 ]
