@@ -4,17 +4,20 @@
     "name": "Zápisnica prvého stretnutia",
     "file": "zapisnice/Zapisnica_1.pdf",
     "date": "11.10.2022"
-  },{
+  },
+  {
     "id": 1,
     "name": "Zápisnica druhého stretnutia",
     "file": "zapisnice/Zapisnica_2.pdf",
     "date": "18.10.2022"
-  },{
+  },
+  {
     "id": 2,
     "name": "Zápisnica tretieho stretnutia",
     "file": "zapisnice/Zapisnica_3.pdf",
     "date": "25.10.2022 "
-  },{
+  },
+  {
     "id": 3,
     "name": "Zápisnica štvrtého stretnutia",
     "file": "zapisnice/Zapisnica_4.pdf",
@@ -25,74 +28,113 @@
     "name": "Zápisnica piateho stretnutia",
     "file": "zapisnice/Zapisnica_5.pdf",
     "date": "8.11.2022"
-  },{
+  },
+  {
     "id": 5,
     "name": "Zápisnica šiesteho stretnutia",
     "file": "zapisnice/Zapisnica_6.pdf",
     "date": "15.11.2022"
-  },{
+  },
+  {
     "id": 6,
     "name": "Zápisnica siedmeho stretnutia",
     "file": "zapisnice/Zapisnica_7.pdf",
     "date": "22.11.2022"
-  },{
+  },
+  {
     "id": 7,
     "name": "Zápisnica ôsmeho stretnutia",
     "file": "zapisnice/Zapisnica_8.pdf",
     "date": "29.11.2022"
-  }
-  ,{
+  },
+  {
     "id": 8,
     "name": "Zápisnica deviateho stretnutia",
     "file": "zapisnice/Zapisnica_9.pdf",
     "date": "6.12.2022"
-  }
-  ,{
+  },
+  {
     "id": 9,
     "name": "Zápisnica desiateho stretnutia",
     "file": "zapisnice/Zapisnica_10.pdf",
     "date": "13.12.2022"
-  }
-  ,{
+  },
+  {
     "id": 10,
     "name": "Zápisnica jedenásteho stretnutia",
     "file": "zapisnice/Zapisnica_11.pdf",
     "date": "17.2.2023"
-  }
-  ,{
+  },
+  {
     "id": 11,
     "name": "Zápisnica dvanásteho stretnutia",
     "file": "zapisnice/Zapisnica_12.pdf",
     "date": "24.2.2023"
-  }
-  ,{
+  },
+  {
     "id": 12,
     "name": "Zápisnica trinásteho stretnutia",
     "file": "zapisnice/Zapisnica_13.pdf",
     "date": "3.3.2023"
-  }
-  ,{
+  },
+  {
     "id": 13,
     "name": "Zápisnica štrnásteho stretnutia",
     "file": "zapisnice/Zapisnica_14.pdf",
-    "date": "13.4.2023"
-  }
-  ,{
+    "date": "10.3.2023"
+  },
+  {
     "id": 14,
     "name": "Zápisnica pätnásteho stretnutia",
     "file": "zapisnice/Zapisnica_15.pdf",
-    "date": "13.4.2023"
-  }
-  ,{
+    "date": "17.3.2023"
+  },
+  {
     "id": 15,
     "name": "Zápisnica šestnásteho stretnutia",
     "file": "zapisnice/Zapisnica_16.pdf",
-    "date": "13.4.2023"
-  }
-  ,{
+    "date": "24.3.2023"
+  },
+  {
     "id": 16,
     "name": "Zápisnica sedemnásteho stretnutia",
     "file": "zapisnice/Zapisnica_17.pdf",
-    "date": "13.4.2023"
+    "date": "31.3.2023"
+  },
+  {
+    "id": 17,
+    "name": "Zápisnica osemnásteho stretnutia",
+    "file": "zapisnice/Zapisnica_18.pdf",
+    "date": "7.4.2023"
+  },
+  {
+    "id": 18,
+    "name": "Zápisnica devätnásteho stretnutia",
+    "file": "zapisnice/Zapisnica_19.pdf",
+    "date": "14.4.2023"
+  },
+  {
+    "id": 19,
+    "name": "Zápisnica dvadsiateho stretnutia",
+    "file": "zapisnice/Zapisnica_20.pdf",
+    "date": "21.4.2023"
+  },
+  {
+    "id": 20,
+    "name": "Zápisnica dvadsiateho prvého stretnutia",
+    "file": "zapisnice/Zapisnica_21.pdf",
+    "date": "28.4.2023"
+  },
+  {
+    "id": 21,
+    "name": "Zápisnica dvadsiateho druhého stretnutia",
+    "file": "zapisnice/Zapisnica_22.pdf",
+    "date": "5.5.2023"
+  },
+  {
+    "id": 22,
+    "name": "Zápisnica dvadsiateho tretieho stretnutia",
+    "file": "zapisnice/Zapisnica_23.pdf",
+    "date": "12.5.2023"
   }
 ]

@@ -40,5 +40,23 @@
         "date": "30.3.2023",
         "name": "Siedmy šprint",
         "text": "Veľká likvidácia bugov a pridávanie niekoľkých funkcionalít a scenárov. Vizuálne už je aplikácia hotová, je však množstvo chýb vo frontende aj backende, čo treba odstrániť." 
+    },
+    {
+        "id": 7,
+        "date": "13.4.2023",
+        "name": "Ôsmy šprint",
+        "text": "Hlavná funkcionalita je hotová, tak pridávame veľa rôznych dôležitých ale okrajových funkcionalít do našej aplikácie. Buldozér." 
+    },
+    {
+        "id": 8,
+        "date": "27.4.2023",
+        "name": "Deviaty šprint",
+        "text": "Funkcionalitu sme dokončili, tak robíme posledné opravovanie bugov a veľa potrebných kozmetických úprav. Začíname znovu s dokumentáciou." 
+    },
+    {
+        "id": 9,
+        "date": "11.5.2023",
+        "name": "Desiaty šprint",
+        "text": "Funkcionalita aplikácie je konečne hotová, ostáva len vychytať muchy. V tomto sprinte začíname poriadne písať dokumentáciu a dokončujeme vizuálne stránky projektu. " 
     }
 ]

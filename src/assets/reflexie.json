@@ -15,30 +15,48 @@
     "id": 2,
     "name": "Reflexia tretieho šprintu",
     "file": "reflexie/Sprint_3.pdf",
-    "date": "15.11.2022"
+    "date": "29.11.2022"
   },
   {
     "id": 3,
     "name": "Reflexia štvrtého šprintu",
     "file": "reflexie/Sprint_4.pdf",
-    "date": "15.11.2022"
+    "date": "12.12.2023"
   },
   {
     "id": 4,
     "name": "Reflexia piateho šprintu",
     "file": "reflexie/Sprint_5.pdf",
-    "date": "4.3.2023"
+    "date": "3.3.2023"
   },
   {
     "id": 5,
     "name": "Reflexia šiesteho šprintu",
     "file": "reflexie/Sprint_6.pdf",
-    "date": "13.4.2023"
+    "date": "17.3.2023"
   },
   {
     "id": 6,
     "name": "Reflexia siedmeho šprintu",
     "file": "reflexie/Sprint_7.pdf",
+    "date": "30.3.2023"
+  },
+  {
+    "id": 7,
+    "name": "Reflexia ôsmeho šprintu",
+    "file": "reflexie/Sprint_8.pdf",
     "date": "13.4.2023"
+  },
+  {
+    "id": 8,
+    "name": "Reflexia deviateho šprintu",
+    "file": "reflexie/Sprint_9.pdf",
+    "date": "27.4.2023"
+  },
+  {
+    "id": 9,
+    "name": "Reflexia desiateho šprintu",
+    "file": "reflexie/Sprint_10.pdf",
+    "date": "11.5.2023"
   }
 ]
