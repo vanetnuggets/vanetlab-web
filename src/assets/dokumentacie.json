@@ -1,14 +1,26 @@
 [
     {
         "id": 0,
+        "file": "ine/documentation_final.pdf",
+        "name": "Finálna dokumentácia projektu",
+        "date": "6.6.2023"
+    },
+    {
+        "id": 3,
         "name": "Motivačný list",
         "file": "ine/Motivacny_list.pdf",
         "date": "15.9.2022"
     },
     {
         "id": 1,
-        "name": "Dokumentácia",
+        "name": "Dokumentácia projektu po prvom semestri",
         "file": "ine/Dokumentacia_tim8.pdf",
         "date": "20.12.2022"
+    },
+    {
+        "id": 2,
+        "name": "Riadenie projektového tímu",
+        "file": "ine/riadenie_timu.pdf",
+        "date": "6.6.2023"
     }
 ]

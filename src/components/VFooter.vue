@@ -4,7 +4,7 @@
   </div>
   <div class="fotercontent" :class="get_theme">
     <div class="columns" style="align-items: center;">
-      <div class="text" :class="get_theme">(c) Majstri kodu @ 2022 a random ranjit od ktoreho kopirujem css ✌️</div>
+      <div class="text" :class="get_theme">(c) Majstri kodu @ 2022 a kamoš Ranjit od ktoreho kopirujeme css ✌️</div>
       <div @mouseover="showTool" class="tooltip">
         <span v-show="tool" class="tooltiptext">{{ text }}</span>
       </div>
